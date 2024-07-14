@@ -75,7 +75,8 @@ It's all about trade offs. What are you trying to solve and which is the best to
 ## Photo Needed: Insert Photo of the process above
 
 **First Python Program**
-```name = input ("What is your name? ")
+``` 
+name = input ("What is your name? ")
     print('Hello, ' + name + ', how are you?')
 
 ```
