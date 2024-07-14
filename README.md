@@ -65,13 +65,22 @@ Now all python2 is considered legacy. Meaning in 2020, it won't be maintained an
 
 ## Sunday, July 14th, 2024 - Building In-depth Python Knowledge (Day 10)
 
-##
+Why are there so many programming languages? Depending on the use case, specific languages are better than others. A language is a tool and there are different tools for different jobs.
 
-##
+It's all about trade offs. What are you trying to solve and which is the best tool (language) is best at solving that problem?
 
-##
 
-##
+### My current understanding of Python: Code is written in Python, it's passed to the interpreter that's provided for you, this interpreter take the py code and converts it into bytecode, it's then run in the CPython VM, then the code is run as binary (1s & 0s baby).
+
+## Photo Needed: Insert Photo of the process above
+
+**First Python Program**
+```name = input ("What is your name? ")
+    print('Hello, ' + name + ', how are you?')
+
+```
+
+###
 
 
 
