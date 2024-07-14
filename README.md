@@ -63,3 +63,20 @@ Create Comments in Python3 using the hash key '#'
 
 Now all python2 is considered legacy. Meaning in 2020, it won't be maintained any longer.
 
+# Sunday, July 14th, 2024 - Building In-depth Python Knowledge (Day 10)
+
+##
+
+##
+
+##
+
+##
+
+
+
+
+
+
+
+
