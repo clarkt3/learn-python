@@ -72,7 +72,7 @@ It's all about trade offs. What are you trying to solve and which is the best to
 
 ### My current understanding of Python: Code is written in Python, it's passed to the interpreter that's provided for you, this interpreter take the py code and converts it into bytecode, it's then run in the CPython VM, then the code is run as binary (1s & 0s baby).
 
-## Photo Needed: Insert Photo of the process above
+### Photo Needed: Insert Photo of the process above
 
 **First Python Program**
 ``` 
@@ -81,9 +81,57 @@ name = input ("What is your name? ")
 
 ```
 
-###
+## Python Basics
 
+To Learning a new language you must know the following:
 
+**Understand the Vocabulary (Terms)**
+
+**Understand the Datatype**
+    1. What sort of data can a program hold (thin of values)
+
+**Understand the Actions**
+    1. At the end of the day, all programming does tell our machines, "Hey, store this data then retreive this data and proforming some actions on it."
+
+**Understand the Best Practives**
+
+###  Fundamental Data Types
+    1. int = intergers
+    2. float
+    3. bool
+    4. str
+    5. list
+    6. tuple
+    7. tuple
+    8. tuple
+    9. set
+    10. dict 
+
+A Program is simply a set of instructions that tell a computer what to do
+
+All about storing information (or a datatype) and modifying that information (datatype)
+
+**Two Crucial Steps to Learn in Programming:**
+    1. Understand the datatypes
+    2. Understand how to perform actions on  the datatpes (remove, store, change) 
+
+### Classes -> custom types
+
+### Specialized Data Types
+
+Think of these as extensions you can add.
+
+### None
+
+Means nothing. Like Zero in Math.
+
+**Understanding  int, float.**
+
+    1. int: Interger
+    2. float: floating point number
+
+### End Notes
+This was a short day, the goal here is to stay consistent and nver miss a day. If you keep coming back daily, this will get easier. Keeping my daily streak alive for the 10th day now. :)
 
 
 
