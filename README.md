@@ -91,12 +91,12 @@ To Learning a new language you must know the following:
     1. What sort of data can a program hold (thin of values)
 
 **Understand the Actions**
-    1. At the end of the day, all programming does tell our machines, "Hey, store this data then retreive this data and proforming some actions on it."
+    1. At the end of the day, all programming does tell our machines, "Hey, store this data then retreive this data and performing some actions on it."
 
 **Understand the Best Practives**
 
 ###  Fundamental Data Types
-    1. int = intergers
+    1. int = intergeres
     2. float
     3. bool
     4. str
@@ -112,8 +112,8 @@ A Program is simply a set of instructions that tell a computer what to do
 All about storing information (or a datatype) and modifying that information (datatype)
 
 **Two Crucial Steps to Learn in Programming:**
-    1. Understand the datatypes
-    2. Understand how to perform actions on  the datatpes (remove, store, change) 
+    1. Understand the data types
+    2. Understand how to perform actions on  the data tpes (remove, store, change) 
 
 ### Classes -> custom types
 
@@ -136,13 +136,13 @@ This was a short day, the goal here is to stay consistent and nver miss a day. I
 Day 11 - Monday, July 15, 2024
 -------
 
-## Pythong Basics
+## Python  Basics
 
 ### Numbers
 
 ### Math Functions
 
-### Dev Fundementals
+### DEVELOPER FUNDEMENTALS I
 
 ### Operator Precedence
 
@@ -150,7 +150,75 @@ Day 11 - Monday, July 15, 2024
 
 ### Execsuse: Operator Precedence
 
-### Operational 
+### Operational: bin() and complex
+
+### Endorsements on LinkedIn
+
+### Variables
+
+### Expressions vs Statements
+
+### Augmented
+
+### Strings
+
+### String Concatenation
+
+### Type Conversion
+
+### Escape Sequences
+
+### Formatted Strings
+
+### String Indexes
+
+### Immutability
+
+### Built-in Functions + Methods
+
+### Booleans
+
+### Exercise: Type Conversion
+
+### DEVELOPER FUNDEMENTALS II
+
+### Exercise: Password Checker
+
+### Lists
+
+### Lists Slicing
+
+### Matrix
+
+### List Methods
+
+### List Methods 2
+
+### List Methods 3
+
+### Common List Patterns
+
+### List Unpacking
+
+### None
+
+### Dictionaries
+
+### 3.7 Updates: Ordered Dict
+
+### DEVELOPER FUNDEMENTALS III
+
+### Dictionary Methods
+
+### Tuples
+
+### Tuples 2
+
+### Sets
+
+### Sets 2
+
+### < > Unlimited Updates
 
 #### \* Add Asterisk without activating it
 **Splat combines zero or more positional arguments into a tuple, while splatty-splat combines zero or more keyword arguments into a dictionary.**
