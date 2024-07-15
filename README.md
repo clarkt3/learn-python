@@ -137,7 +137,7 @@ Day 11 - Monday, July 15, 2024
 -------
 
 #### Create Subheading
-**Creates Sub, Subheading**
+**create bold effect**
 ```python
 create code snippit -> that can be coppied
 ```
