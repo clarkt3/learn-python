@@ -134,7 +134,6 @@ Means nothing. Like Zero in Math.
 This was a short day, the goal here is to stay consistent and nver miss a day. If you keep coming back daily, this will get easier. Keeping my daily streak alive for the 10th day now. :)
 
 Day 11 - Monday, July 15, 2024
--------
 
 ## Python  Basics
 
