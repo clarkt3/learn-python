@@ -141,15 +141,20 @@ ______
 ### Numbers
      1. int = intergeres
      2. float
+
 This video explains floating point numbers well. https://www.youtube.com/watch?v=PZRI1IfStY0&ab_channel=Computerphile
 
 **A float is larger in memory than an interger. Because floating point numbers recur.**
 
 Humans read numbers like this:
 Base 10: 10 Digits
-```100 10 1 . 10ths 100ths 1000ths
-1/10 in decimals = 0.1
+
 ```
+100 10 1 . 10ths 100ths 1000ths
+1/10 in decimals = 0.1
+
+```
+
 Machines read numbers like this:
 Base 2: 2 Digits
 
@@ -161,8 +166,26 @@ Computers don't understand recurring numbers.
 
 1/3 + 2/3 [27;6;85~] 3/10
 
-
 This video explains floating point numbers well. https://www.youtube.com/watch?v=PZRI1IfStY0&ab_channel=Computerphile
+
+``` Python 
+# Fundmental Data Types
+# in and float
+
+print(type(6))
+print(type(2-4))
+print(type(2 * 4))
+print(type(2 / 4))
+
+# Printing Operator Names
+# Example usage
+print(get_operator_name('+'))   # Output: Addition
+print(get_operator_name('**'))  # Output: Exponentiation
+print(get_operator_name('=='))  # Output: Equality
+print(get_operator_name('//'))  # Output: Floor Division
+print(get_operator_name('@'))   # Output: Unknown operator
+
+```
 
 ### Math Functions
 
@@ -240,35 +263,6 @@ This video explains floating point numbers well. https://www.youtube.com/watch?v
 
 ### Sets
 
-### Sets 2
+## Sets 2
 
-### < > Unlimited Updates
-
-#### \* Add Asterisk without activating it
-**Splat combines zero or more positional arguments into a tuple, while splatty-splat combines zero or more keyword arguments into a dictionary.**
-```python
-def add(*a):
-    return sum(a)
-
-add(1, 2, 3) # 6
-```
-
-##### Create 
-```python
-def f(*args):                  # f(1, 2, 3)
-def f(x, *args):               # f(1, 2, 3)
-def f(*args, z):               # f(1, 2, z=3)
-def f(x, *args, z):            # f(1, 2, z=3)
-
-def f(**kwargs):               # f(x=1, y=2, z=3)
-def f(x, **kwargs):            # f(x=1, y=2, z=3) | f(1, y=2, z=3)
-
-def f(*args, **kwargs):        # f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3) | f(1, 2, 3)
-def f(x, *args, **kwargs):     # f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3) | f(1, 2, 3)
-def f(*args, y, **kwargs):     # f(x=1, y=2, z=3) | f(1, y=2, z=3)
-def f(x, *args, z, **kwargs):  # f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3)
-```
-
-
-
-
+## < > Unlimited Updates
