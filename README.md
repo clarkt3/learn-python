@@ -133,7 +133,39 @@ Means nothing. Like Zero in Math.
 ### End Notes
 This was a short day, the goal here is to stay consistent and nver miss a day. If you keep coming back daily, this will get easier. Keeping my daily streak alive for the 10th day now. :)
 
+Day 11 - Monday, July 15, 2024
+-------
 
+#### Create Subheading
+**Creates Sub, Subheading**
+```python
+create code snippit -> that can be coppied
+```
+
+#### \* Add Asterisk without activating it
+**Splat combines zero or more positional arguments into a tuple, while splatty-splat combines zero or more keyword arguments into a dictionary.**
+```python
+def add(*a):
+    return sum(a)
+
+add(1, 2, 3) # 6
+```
+
+##### Create 
+```python
+def f(*args):                  # f(1, 2, 3)
+def f(x, *args):               # f(1, 2, 3)
+def f(*args, z):               # f(1, 2, z=3)
+def f(x, *args, z):            # f(1, 2, z=3)
+
+def f(**kwargs):               # f(x=1, y=2, z=3)
+def f(x, **kwargs):            # f(x=1, y=2, z=3) | f(1, y=2, z=3)
+
+def f(*args, **kwargs):        # f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3) | f(1, 2, 3)
+def f(x, *args, **kwargs):     # f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3) | f(1, 2, 3)
+def f(*args, y, **kwargs):     # f(x=1, y=2, z=3) | f(1, y=2, z=3)
+def f(x, *args, z, **kwargs):  # f(x=1, y=2, z=3) | f(1, y=2, z=3) | f(1, 2, z=3)
+```
 
 
 
