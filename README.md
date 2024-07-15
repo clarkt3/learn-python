@@ -171,7 +171,6 @@ This video explains floating point numbers well. https://www.youtube.com/watch?v
 ``` Python 
 # Fundmental Data Types
 # in and float
-
 print(type(6))
 print(type(2-4))
 print(type(2 * 4))
