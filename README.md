@@ -136,11 +136,21 @@ This was a short day, the goal here is to stay consistent and nver miss a day. I
 Day 11 - Monday, July 15, 2024
 -------
 
-#### Create Subheading
-**create bold effect**
-```python
-create code snippit -> that can be coppied
-```
+## Pythong Basics
+
+### Numbers
+
+### Math Functions
+
+### Dev Fundementals
+
+### Operator Precedence
+
+### Replit Code
+
+### Execsuse: Operator Precedence
+
+### Operational 
 
 #### \* Add Asterisk without activating it
 **Splat combines zero or more positional arguments into a tuple, while splatty-splat combines zero or more keyword arguments into a dictionary.**
