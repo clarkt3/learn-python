@@ -139,6 +139,31 @@ ______
 ## Python Basics
 
 ### Numbers
+     1. int = intergeres
+     2. float
+This video explains floating point numbers well. https://www.youtube.com/watch?v=PZRI1IfStY0&ab_channel=Computerphile
+
+**A float is larger in memory than an interger. Because floating point numbers recur.**
+
+Humans read numbers like this:
+Base 10: 10 Digits
+```100 10 1 . 10ths 100ths 1000ths
+1/10 in decimals = 0.1
+```
+Machines read numbers like this:
+Base 2: 2 Digits
+
+4 2 1 . 1/2 1/4 1/8 1/16
+
+0.1 in binary = 0.00011 and that recurs to infinity
+
+Computers don't understand recurring numbers.
+
+1/3 + 2/3 [27;6;85~] 3/10
+
+Python
+
+This video explains floating point numbers well. https://www.youtube.com/watch?v=PZRI1IfStY0&ab_channel=Computerphile
 
 ### Math Functions
 
