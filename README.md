@@ -161,7 +161,6 @@ Computers don't understand recurring numbers.
 
 1/3 + 2/3 [27;6;85~] 3/10
 
-Python
 
 This video explains floating point numbers well. https://www.youtube.com/watch?v=PZRI1IfStY0&ab_channel=Computerphile
 
