@@ -178,11 +178,29 @@ print(type(2 / 4))
 
 # Printing Operator Names
 # Example usage
-print(get_operator_name('+'))   # Output: Addition
-print(get_operator_name('**'))  # Output: Exponentiation
-print(get_operator_name('=='))  # Output: Equality
-print(get_operator_name('//'))  # Output: Floor Division
-print(get_operator_name('@'))   # Output: Unknown operator
+
+# 1st Define function
+def get_operator_name(operator):
+    operator_names = {
+        # define operator names
+        '+': 'Addition',
+        '-': 'Subtraction',
+        '*': 'Multiplication',
+        '/': 'Division',
+        '//': 'Floor Division',
+        '%': 'Modulus',
+        '**': 'Exponentiation',
+        '-u': 'Unary Negation'  # Representing unary negation
+    }
+    return operator_names.get(operator, 'Unknown Operator')
+    # Examples
+    print(get_operator_name('+'))   # Output: Addition
+    print(get_operator_name('**'))  # Output: Exponentiation
+    print(get_operator_name('=='))  # Output: Equality
+    print(get_operator_name('//'))  # Output: Floor Division
+    print(get_operator_name('@'))   # Output: Unknown operator
+
+
 
 ```
 ## The Feynman Technique & How it will make you a better Developer
@@ -216,6 +234,29 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 
 ### Math Functions
+
+```Python
+
+    # Fundemental data types
+    # int and float
+
+    # Get data type
+       print(type(6))       # Int
+       print(type(2 / 4))   # Float
+       print((10.56))       # Float -> Float store the numbers in front and behind the decimal in two different places and it requires more memory
+    # Math operations
+        print(2 -  4)   # Subtraction
+        print(2 *  4)   # Multiplication
+        print(2 /  4)   # Float
+        print(2 ** 2)   # Exponent:  2 to the power of 2 = 4
+        print(2 // 4)   # Floor Division: devides left operand by right operand, rounding down to the nearest interger. Example a // b
+        print(6 %  4)   # Modulus: Returns the remainder of the division of the left operand by the right operand
+
+        print(get_operator_name('%'))
+  ```
+# 
+
+
 
 ### DEVELOPER FUNDEMENTALS I
 
