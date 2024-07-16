@@ -232,6 +232,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
         a. Researcher shows that you lose 50% of information you learnred 1 hour after it repeats and up to 70% in 24 hours
         b. So you have to work to perfect this practice; by no means it a one and done.
 
+# Day 12 -> Making Better Notes
 
 ### Math Functions
 
@@ -254,13 +255,39 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
         print(get_operator_name('%'))
   ```
-# 
+```Python
 
+    # Math Functions
+    print(round(3.9))   # Built-in Rounding Function
+    print(abs(-20))     # Absolute Value
+
+    # Now that you know about math functions, you can use ChatGPT to discover more built-in Python 3 functions
+
+```
 
 
 ### DEVELOPER FUNDEMENTALS I
 
+```Python
+
+# Don't read the dictionary. 
+# Figure things out on the fly.
+# Use ChatGPT (Google) to figure out which tools you are best for solving the specific problem.
+
+```
+
 ### Operator Precedence
+
+```Python
+
+# PEMDAS: P:Parentheses, E:Exponents (including roots, such as square roots, M:Multiplication, D: Division, A: Addition, S:Subtraction 
+
+# ()
+# **
+# * /
+# + _
+
+```
 
 ### Replit Code
 
