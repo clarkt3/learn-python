@@ -291,6 +291,14 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ### Replit Code
 
+```Python
+
+# GitGub code repo for the next exervises: https://github.com/aneagoie/ztm-python-course-exercises
+# Operator Presidence Replit: https://replit.com/@aneagoie/Operator-Precedence#main.py
+# # GitHub ZTM Python Course Exervises: https://replit.com/@aneagoie/Operator-Precedence#main.py
+
+```
+
 ### Execsuse: Operator Precedence
 
 ### Operational: bin() and complex
