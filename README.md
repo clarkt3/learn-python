@@ -185,6 +185,35 @@ print(get_operator_name('//'))  # Output: Floor Division
 print(get_operator_name('@'))   # Output: Unknown operator
 
 ```
+## The Feynman Technique & How it will make you a better Developer
+
+### It Boild down to a four step process
+    1. Pick something you want to learn
+    2. Write and Explain the concept as simply as possible
+    3. Identify Shortcomings and Points of Improvement
+    4. Review and Simplify (further if needed)
+
+### Example of Applying the Feynman Technique
+    1. Understand the React state
+    2. In React, state refers to the data that determines how a component is rendered and behaves. It's a plain JavaScript Object that contains info about the components current state, such as user input or changes in data from a database. When the state changes, React will re-render the component to reflect the updated state. 
+        a. Further simplification: "Have you ever played with a toy that you can change like a puzzle or a building set? React State is kind of like that. When we build a website with React, we use different building blocks called components. Each component can have its own box called state, where it keeps important information. For example, if you're filling out a form on a website, the state might hold the things you type in. When you change something in the state, React will automatically update what you see on the screen to show the new information. Just like how you can change a puzzle or a building set to make it look different"
+    3. After writing this explaination, the author realizes he didn't explain how to update the state and the annlogy could be better. This is a vital point that was not conveyed well.
+        a. This could either be a lack of knowledge or the fact he just forgot to include it. It's important to pinpoint gaps that must be closed in your explaination.
+        b. Third attempt at simplification: "Have you ever built a sand castle or a tower with blocks? In React, we use building blocks called components to build a website. Each component can have its own special box called state, where it keeps important info. For example, if you're playing a game on a website, the state might hold your score when you do something that changes the state, like scoring a point in a game, we use a unique tool called setState() to update the state. When the state changes Reactt will automatically update what you see on the screen to show the new info. Just like how you can add more blocks to a tower to make it taller"
+
+The beauty of this method is that it doesn't need to be perfect your first go around. You refine it constantly until it it's easier to grasp for you and your audiance.
+
+### Four Takeaways: 
+    1. Simplify, Simplify, Simplify (The goal is for a 10 year old to understand it.)
+    2. Use clear and simple language -> using complex language to cover up knowledge gaps and insecurities is the easies to know you don't fully understand the concept.
+    3. Test Your Understanding by asking yourself these questions: 
+        a. Do I understand the underlying principles and assumptions of the concept?
+        b. Can I provide examples that illustrate how the concept works
+        c. Can I identify the limitations of the concepts?
+    4. Iterate and repeat
+        a. Researcher shows that you lose 50% of information you learnred 1 hour after it repeats and up to 70% in 24 hours
+        b. So you have to work to perfect this practice; by no means it a one and done.
+
 
 ### Math Functions
 
