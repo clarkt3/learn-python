@@ -301,13 +301,40 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ### Execsuse: Operator Precedence
 
+```Python
+
+    # Remember PEMDAS and you will be good
+
+```
+
 ### Operational: bin() and complex
 
-### Endorsements on LinkedIn
 
 ### Variables
 
+```Python
+
+    # variables store values and can be changed
+    # be a good dev and name your vars so another dev can understand and follow your code
+
+```
+    # variables store values and can be changed
 ### Expressions vs Statements
+
+```Python 
+
+    # an expression is something that returns a value
+    # for example
+        iq = 100 
+        user_age = iq / 5 
+    
+    # the statement is an entire line of code that performs an action
+        user_age = iq / 5
+        
+    # the expression
+        iq / 5 # because it returns a value
+
+```
 
 ### Augmented
 
