@@ -336,7 +336,42 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```
 
-### Augmented
+### Augmented Assignment Operator
+
+```Python 
+
+    some_value =  5
+
+    some_value *= 5
+    some_value += 5
+    some value -= 5
+
+```
+
+
+```Python
+
+    # augmented assignment operator
+    some_value = 5
+    some_value = some_value * 2
+
+    print(some_value)
+
+    # subtract some_value with augmented operator
+    some_value -= 2
+
+    # add some_value with augmented operator
+    some_value += 2
+
+    # multiple some_value with augmented operator
+    some_value *= 2
+
+    # remember: the operator comes to the left of the equals sign
+    '-+'
+    '-+'
+    '*+'
+
+```
 
 ### Strings
 
