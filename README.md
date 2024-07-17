@@ -374,7 +374,25 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```
 
-### Strings
+### Strings (str)
+
+```Python 
+
+    # single-line strings
+        print(type"hi hello there 24!"))
+        username = 'supercoder'
+        password = 'supersecret'
+
+    # multi-line string
+    long_string = '''
+
+     WOW
+     0 0
+     ____
+
+   '''
+
+```
 
 ### String Concatenation
 
