@@ -379,7 +379,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python 
 
     # single-line strings
-        print(type"hi hello there 24!"))
+        print(type"hi hello there 24!")) # output -> str
         username = 'supercoder'
         password = 'supersecret'
 
@@ -392,9 +392,31 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
    '''
 
+    # print two strings together
+        first_name = 'Tom'
+        last_name = 'Clark'
+        full_name = first_name + last_name
+
+        print(full_name)
+
+        # add space between first and last name
+        first_name = 'Tom'
+        last_name = 'Clark'
+        full_name = first_name + ' ' + last_name
+
+        print(full_name)
+
+
 ```
 
 ### String Concatenation
+
+```Python
+
+    # simply add two string together with the + operator
+        print('Hello' + ' Tom')
+
+```
 
 ### Type Conversion
 
