@@ -453,12 +453,52 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```
 
-
 ### Escape Sequences
+
+```Python
+
+    # excape sequence ->  double and single quotation marks
+        weather = "It\'s "kind of"  sunny" # returns error; escape sequence required
+
+    # escape sequence -> add tab
+        weather = "\t It\'s \"kind of\" sunny" # letting python know whatever comes after \ is a str
+
+        print(weather)
+
+    # escape sequence -> add tabshow a backslash as a str after you enter an  escape sequence \
+        "\\" # the first backslash is the escape sequence, the second backslash is returned as a str
+        weather =  "\t It\'s \"kind of\" sunny\\hazy" # syntax highlighting will help identify if you are missing an escape sequence
+
+    # escape sequence -> add new line
+        weather = "\t It's \"kind of\" sunny \n hope you have a good day"
+
+```
 
 ### Formatted Strings
 
+```Python
+
+    # f str is cleaner but only available in Python3
+        name = 'Johnny'
+        age = 55
+
+    # print cleaner with f str
+
+        print(f'hi {name}. You are {age} years old')
+
+    # the python2 version
+        pring('hi {0}. You are {1} year old'.format(name, ag)) # this version is not as thought through
+
+```
+
 ### String Indexes
+
+```Python
+
+    # 
+
+```
+
 
 ### Immutability
 
