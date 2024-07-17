@@ -440,8 +440,16 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+    # conversion expression
+        print(type(int(str(100))))
 
+    # convserion broken into steps
+        a = str(100)
+        b = int(a)
+        c = type(b)
+        print(c)
 
+    # this is type conversion
 
 ```
 
