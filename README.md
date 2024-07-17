@@ -321,7 +321,6 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```
 
-
 ### Variables
 
 ```Python
@@ -387,7 +386,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```
 
 
-## Day 13 -> Wed, Jul 17, 2024
+## Day 13 -> Wed  Jul 17  2024
 
 ### Strings (str)
 
