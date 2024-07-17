@@ -374,6 +374,8 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```
 
+
+## Day 12 -> Wed, Jul 17, 2024
 ### Strings (str)
 
 ```Python 
@@ -416,6 +418,8 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
     # simply add two string together with the + operator
         print('Hello' + ' Tom')
 
+    # str  concatenation only works with strings
+        print('hello' + 5) # this returns an error
 ```
 
 ### Type Conversion
