@@ -232,7 +232,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
         a. Researcher shows that you lose 50% of information you learnred 1 hour after it repeats and up to 70% in 24 hours
         b. So you have to work to perfect this practice; by no means it a one and done.
 
-# Day 12 -> Making Better Notes
+##  Day 12 -> Jul 16 2024
 
 ### Math Functions
 
@@ -264,7 +264,6 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
     # Now that you know about math functions, you can use ChatGPT to discover more built-in Python 3 functions
 
 ```
-##  Day 12 -> Tue, Jul 16th, 2024  -> Benny is now 10 months old!
 
 ### DEVELOPER FUNDEMENTALS I
 
@@ -487,7 +486,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
         print(f'hi {name}. You are {age} years old')
 
     # the python2 version
-        pring('hi {0}. You are {1} year old'.format(name, ag)) # this version is not as thought through
+        pring('hi {0}. You are {1} year old'.format(name, age)) # this version is not as thought through
 
 ```
 
