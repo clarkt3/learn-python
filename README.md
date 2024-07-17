@@ -264,7 +264,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
     # Now that you know about math functions, you can use ChatGPT to discover more built-in Python 3 functions
 
 ```
-
+# Day 12 -> 7/16/2024 -> Benny is now 10 months old!
 
 ### DEVELOPER FUNDEMENTALS I
 
@@ -325,12 +325,13 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
     # an expression is something that returns a value
     # for example
-        iq = 100 
-        user_age = iq / 5 
-    
+        iq = 100
+        user_age = iq / 5
+
+
     # the statement is an entire line of code that performs an action
         user_age = iq / 5
-        
+
     # the expression
         iq / 5 # because it returns a value
 
