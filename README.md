@@ -264,7 +264,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
     # Now that you know about math functions, you can use ChatGPT to discover more built-in Python 3 functions
 
 ```
-# Day 12 -> 7/16/2024 -> Benny is now 10 months old!
+##  Day 12 -> Tue, Jul 16th, 2024  -> Benny is now 10 months old!
 
 ### DEVELOPER FUNDEMENTALS I
 
@@ -376,6 +376,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 
 ## Day 12 -> Wed, Jul 17, 2024
+
 ### Strings (str)
 
 ```Python 
