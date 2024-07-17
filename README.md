@@ -309,16 +309,29 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ### Operational: bin() and complex
 
+```Python
+
+    # complex isn't going to be used 99.9% of the time
+    # bin() stands for binary
+        bin() # returns the binary representation of an interger
+        print(bin(5)) # returns 0b101, which just means binary 
+
+    # print a binary number as an interger
+        print(int('0b101' + 2)) # returns 0b101 and 5 because it's converting 0b101, which is a base 2 number back to base 10 (human readable)
+    # base 2 numbers must be written in as an str to convert to base 10
+
+```
+
 
 ### Variables
 
 ```Python
 
     # variables store values and can be changed
+    # variables store values and can be changed
     # be a good dev and name your vars so another dev can understand and follow your code
 
 ```
-    # variables store values and can be changed
 ### Expressions vs Statements
 
 ```Python 
