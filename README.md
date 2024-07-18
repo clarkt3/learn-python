@@ -488,18 +488,41 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
         pring('hi {0}. You are {1} year old'.format(name, age)) # this version is not as thought through
 
 ```
+## Day 14 - 2023-7-18
 
 ### String Indexes
 
 ```Python
 
-    # 
+    # high-level ideas points from the lesson
+        # 1. in python, chars and spaces are stored within a corresponding vlue (0,1, 2, 3, 4, etc.) 
+        # 2. access different parts of a string by their indexes
+        # 3. [start:stop:stepover]
+
+    # code samples from the lesson - write by hand for muscle memory, clean code, attention to detail
+        selfish = '01234567'
+                # 01234567
+
+                # [start:stop:stepover] 
+                print(selfish[1:]) # starts at 1 and goes to the end with no stop value entered
+
+                # no start value
+                print(selfish[:5])
+
+                # [start:stop:stepover] w/o start, stop value
+                print(selfish[::1])
+
+                # [start:stop:stepover] w/ negative numbers
+                print(selfish[-1]) # starts from the end, prints the last value within the str
+
+                # [start:stop:stepover] - step over from the back to get the reverse order
+                print(selfish)[::-1] # prints 76543210 which is the above str in reverse 
 
 ```
-
 ### Immutability
 
 ```Python
+
 
 
 ```
@@ -509,11 +532,13 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 
+
 ```
 
 ### Booleans
 
 ```Python
+
 
 
 ```
@@ -523,11 +548,13 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 
+
 ```
 
 ### DEVELOPER FUNDEMENTALS II
 
 ```Python
+
 
 
 ```
@@ -537,11 +564,13 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 
+
 ```
 
 ### Lists
 
 ```Python
+
 
 
 ```
