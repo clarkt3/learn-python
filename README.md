@@ -497,51 +497,151 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```
 
-
 ### Immutability
+
+```Python
+
+```
 
 ### Built-in Functions + Methods
 
+```Python
+
+```
+
 ### Booleans
+
+```Python
+
+```
 
 ### Exercise: Type Conversion
 
+```Python
+
+```
+
 ### DEVELOPER FUNDEMENTALS II
+
+```Python
+
+```
 
 ### Exercise: Password Checker
 
+```Python
+
+```
+
 ### Lists
+
+```Python
+
+```
 
 ### Lists Slicing
 
+```Python
+
+```
+
 ### Matrix
+
+```Python
+
+```
 
 ### List Methods
 
+```Python
+
+```
+
 ### List Methods 2
+
+```Python
+
+```
 
 ### List Methods 3
 
+```Python
+
+```
+
 ### Common List Patterns
+
+
+```Python
+
+```
 
 ### List Unpacking
 
+```Python
+
+```
+
 ### None
+
+```Python
+
+```
 
 ### Dictionaries
 
+```Python
+
+```
+
 ### 3.7 Updates: Ordered Dict
+
+
+```Python
+
+```
 
 ### DEVELOPER FUNDEMENTALS III
 
+```Python
+
+```
+
 ### Dictionary Methods
+
+```Python
+
+```
 
 ### Tuples
 
+```Python
+
+```
+
 ### Tuples 2
+
+```Python
+
+```
 
 ### Sets
 
+```Python
+
+```
+
 ## Sets 2
 
+```Python
+
+```
+
 ## < > Unlimited Updates
+
+```Python
+
+```
+
+
+
