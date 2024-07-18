@@ -523,10 +523,14 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-# high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+# storing this amazing find/replace command here for future reference!!! 
+    # replace w/o prompting -> :%s/oldword/newword/g
+    # replace w/  prompting ->  :%s/oldword/newword/gc
+
+# high-level ideas from the lesson
+  # key point: str values assigned to a var cannot be changed
+  # key point: if you 
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -537,9 +541,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -551,9 +555,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -564,9 +568,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -577,9 +581,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -590,9 +594,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -603,9 +607,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -616,9 +620,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point:
-  # - key point:
-  # - key point:
+  # key point:
+  # key point:
+  # key point:
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -630,9 +634,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point:
-  # - key point:
-  # - key point:
+  # key point:
+  # key point:
+  # key point:
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -643,9 +647,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -656,9 +660,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -669,9 +673,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -683,9 +687,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -696,9 +700,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -709,9 +713,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -722,9 +726,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -736,9 +740,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -749,9 +753,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -762,9 +766,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -775,9 +779,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -788,9 +792,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -801,9 +805,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -814,9 +818,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
@@ -827,9 +831,9 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 ```Python
 
 # high-level ideas points from the lesson
-  # - key point: 
-  # - key point:
-  # - key point: 
+  # key point: 
+  # key point:
+  # key point: 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
