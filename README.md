@@ -525,15 +525,19 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 # storing this amazing find/replace command here for future reference!!! 
     # replace w/o prompting -> :%s/oldword/newword/g
-    # replace w/  prompting ->  :%s/oldword/newword/gc
+    # replace w/  prompting -> :%s/oldword/newword/gc
 
 # high-level ideas from the lesson
   # key point: str values assigned to a var cannot be changed
-  # key point: if you 
-  # key point: 
+  # key point: if you assign a new value it redefines the var 
+  # key point: every time you rename the var, the previous value is lost
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    selfish = '01234567'
+            #  01234567
+    selfish = selfish + '8' # adds 8 to the end of the original value of 01234567 so it's now 012345678
 
+    print(selfish)
 ```
 
 ### Built-in Functions + Methods
