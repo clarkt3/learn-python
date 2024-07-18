@@ -501,11 +501,13 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
 ```
 
 ### Built-in Functions + Methods
 
 ```Python
+
 
 ```
 
@@ -513,11 +515,13 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
 ```
 
 ### Exercise: Type Conversion
 
 ```Python
+
 
 ```
 
@@ -525,11 +529,13 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
 ```
 
 ### Exercise: Password Checker
 
 ```Python
+
 
 ```
 
@@ -537,11 +543,14 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
 ```
 
 ### Lists Slicing
 
 ```Python
+
+
 
 ```
 
@@ -549,11 +558,14 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
 ```
 
 ### List Methods
 
 ```Python
+
+
 
 ```
 
@@ -561,11 +573,15 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
+
 ```
 
 ### List Methods 3
 
 ```Python
+
+
 
 ```
 
@@ -574,11 +590,15 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
+
 ```
 
 ### List Unpacking
 
 ```Python
+
+
 
 ```
 
@@ -586,11 +606,15 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
+
 ```
 
 ### Dictionaries
 
 ```Python
+
+
 
 ```
 
@@ -599,11 +623,15 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
+
 ```
 
 ### DEVELOPER FUNDEMENTALS III
 
 ```Python
+
+
 
 ```
 
@@ -611,11 +639,15 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
+
 ```
 
 ### Tuples
 
 ```Python
+
+
 
 ```
 
@@ -623,11 +655,15 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
+
 ```
 
 ### Sets
 
 ```Python
+
+
 
 ```
 
@@ -635,11 +671,15 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
+
+
 ```
 
 ## < > Unlimited Updates
 
 ```Python
+
+
 
 ```
 
