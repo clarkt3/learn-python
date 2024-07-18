@@ -544,13 +544,35 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # high-level ideas points from the lesson
+        # key point: you must know built-in functions & method exist 
+        # key point: you must NOT memorize built-in functions & methods
+        # key point: know where you have tools at your disposal and learn to understand and use the docs
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+        # print to versions of a value; since strs are immutable, you must define another var to print second value
+         quote  = 'to be or not to be'
+         quote2 = quote.replace('be', 'me')
 
+         print(quote2)
+
+         print(quote)
+
+    # find method
+        quote = 'to be or not to be'
+        print(quote.find('be')) # prints index value of the first instance of 'be' begins
+
+    # change to uppercase
+        quote = 'to be or not to be'
+        quote.upper() # prints all caps version of the str
+
+    # capitalize()
+        quote = 'to be or not to be'
+        print(quote.capitalize) # prints quote in all caps
+
+    # replace - replace w/e is pass to the braces
+        quote = 'to be or not to be'
+        print(quote.replace('be', 'me')) # this prints a new value but this is not 
 
 ```
 
