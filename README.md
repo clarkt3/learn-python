@@ -575,6 +575,14 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
         print(quote.replace('be', 'me')) # this prints a new value but this is not 
 
 ```
+#### Closing Notes
+
+```python 
+    # formatting notes ahead of time worked well for me today
+    # watching to lessons once w/o taking notes  
+    # start your day applying to become a Technical Support Engineer at a company that focuses on AI, ML
+
+```
 
 ### Booleans
 
