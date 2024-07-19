@@ -697,22 +697,42 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
     # unstuck: took the example too literally and didn 't change the 10 in this expression to the var name *' * 10
 
     # my code to convert password to *
-    hidden_password = '*' * 10  password_length
+    hidden_password = '*' * 10  password_length # this throws an error
 
     # make sure you understand the problem thoroughly moving forward.
     # I mistakenly thought I was asked to make the password the same amounts of digits regardless of it's length by multiplying it by 10; wrong.
+
+    # f-string: formatted string -> enable embedding expressions inside tring literals in Python, using curly braces {}.
 ```
 
 ### Lists
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point: li: lists are like arrays 
+    # key point: lists (li) are 0 indexed 
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    #  list = ordered sequence of objects of any type
+
+    # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    li  = [1, 2, 3, 4, 5]
+    li2 = ['a', 'b', 'c']
+    li3 = [1, 2, 'a', True]
+    print(li(0))
+
+    amazon_cart = ['notebooks', 'sunglasses']
+ 
+    print(amazon_cart[0])   # notebook
+    print(amazon_cart[0])   # sunglasses
+    print(amazon_cart[2])   # error printed since you don't have anything in the 2 position in your data structure
+
+    # data structures in simple terms
+    # enables organization and structure into lets say a "fridge"
+    # all data structure have their pros and cons
+    # a fridge isn't good for keeping something hot but great for keeping things cold
+
+    # think of data structures like this: a container around your data that has different pros and cons like accessing, removing, writing data
+
 
 ```
 
