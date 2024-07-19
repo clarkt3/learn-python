@@ -757,13 +757,13 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
     print(amazon_cart[0::2])    # step over to list end
 
     # lists are mutable; they can be changed unlike strings
-    
+
     # update list syntax
     amazon_cart[0] = 'laptop'   # grabs 0 indexed item and changes it to 'laptop'
 
-    
 
 ```
+## Day 16 - 2024-07-20 
 
 ### Matrix
 
