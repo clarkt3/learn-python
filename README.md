@@ -654,33 +654,52 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
          # pint birth year with f-str to add expression inside
          print(f'your age is: {age}')
 
-
 ```
 
 ### DEVELOPER FUNDEMENTALS II
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+# don't repeat yourself; don't explain your code in comments
+  # key point: follow best practices when writting comments 
+  # key point: if you have too many comments that's a sign your code was poorly designed
+  # key point: use comments to sudo code before you add pythonian code
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
-
+  # comments are a repetatative subject in this course
 ```
 
 ### Exercise: Password Checker
 
 ```Python
+    # task: convert the two inputs to solve this exercise
+    input()
+    input()
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    print(password {}) is {passwordlength}
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
+    # use this to make * print 10x 
+    print('*' * 10)
+
+    # solution
+    username = input('What\'s your username?')
+    password = input('What\'s your password?')
+
+
+
+    # stuck:   converting the password_length to 10 asterisks using '*' * 10
+    password_length = len(password)
+    hidden_password = '*' * password_length
+
+
+    print(f'{username}, your password, {password}, is {hiden_password} letters long')
+
+    # unstuck: took the example too literally and didn 't change the 10 in this expression to the var name *' * 10
+
+    # my code to convert password to *
+    hidden_password = '*' * 10  password_length
+
+    # make sure you understand the problem thoroughly moving forward.
 ```
 
 ### Lists
