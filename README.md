@@ -598,12 +598,12 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
         # booleans
-            name = 'Thomas'
-            is_cool = False
+        name = 'Thomas'
+        is_cool = False
 
-            is_cool = True
+        is_cool = True
 
-            print(bool('True')) # true = 1 false = 0; all there is too it
+        print(bool('True')) # true = 1 false = 0; all there is too it
 
 ```
 
