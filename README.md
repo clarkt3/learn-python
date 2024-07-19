@@ -637,6 +637,24 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
         # use f to format string with expression inside
         print(f"The user is {age} years old.")
 
+        # this is how it was solved in the lesson plan. I used google and chatGPT to help me answer mine
+        # Andre also stores input into a variable
+        birth_year = input('What year were you born?')
+
+        age = 2024 - int(birth_year)
+
+        print(f'your age is: {age}')
+
+         # 3-line solution
+         birth_year = input('What year were you born?: ')
+
+         # subtract birth year from current year
+         age = 2024 - int(birth_year)
+
+         # pint birth year with f-str to add expression inside
+         print(f'your age is: {age}')
+
+
 ```
 
 ### DEVELOPER FUNDEMENTALS II
