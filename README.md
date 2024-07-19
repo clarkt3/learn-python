@@ -700,6 +700,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
     hidden_password = '*' * 10  password_length
 
     # make sure you understand the problem thoroughly moving forward.
+    # I mistakenly thought I was asked to make the password the same amounts of digits regardless of it's length by multiplying it by 10; wrong.
 ```
 
 ### Lists
