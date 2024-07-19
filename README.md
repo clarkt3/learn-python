@@ -740,13 +740,28 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point:
-  # key point:
-  # key point:
+    # key point: if you slice a list, a copy of the list is made and updated in the new variable
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    amazon_cart = [
+    'notebook',
+    'sunglasses',
+    'toys',
+    'gapes'
+    ]
 
+    print(amazon_cart)          # prints everything in the cart
+    print(amazon_cart[0])       # prints the 0 vlaue of the index
+
+    # list slice(s)
+    print(amazon_cart[0::2])    # step over to list end
+
+    # lists are mutable; they can be changed unlike strings
+    
+    # update list syntax
+    amazon_cart[0] = 'laptop'   # grabs 0 indexed item and changes it to 'laptop'
+
+    
 
 ```
 
