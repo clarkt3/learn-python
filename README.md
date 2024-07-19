@@ -611,22 +611,31 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-    # make a program that guessses a users age based on the birth yeaer input
+        # built-in method definition: a method that is bound to an object, and it operates on that object
+        my_string = "hello, World!"
+        lowercase_string = my_string.lower()
+        print(lowercase_string)
+
+        # engineer a program that guessses a users age based on the birth yeaer input
 
         # import datetime function
         from datetime import datetime
 
 
-        # ask for users birthday
-        input("What year were you born in?")
+        # store birthdate input in var user_age
+        user_age = input("Please enter your birthdate (YYYY-MM-DD): ")
 
+        # convert user age  str to a datetime obj
+        birth_date = datetime.strptime(user_age, '%Y-%m-%d')
 
-        # store birthday input in var
-        user_age = input 
+        # get current date
+        current_date = datetime.now()
 
+        # calculate the age
+        age = current_date.year - birth_date.year - ((current_date.month, current_date.day) < (birth_date.month, birth_date.day))
 
-        # print age
-        print(user_age)
+        # use f to format string with expression inside
+        print(f"The user is {age} years old.")
 
 ```
 
