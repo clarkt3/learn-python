@@ -584,16 +584,26 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```
 
+## Day 15 - 2024-07-19
+
 ### Booleans
 
 ```Python
 
 # high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+  # key point: true or false 
+  # key point: bool is the snytax 
+  # key point: false = 0 and true = 1 is all it is 
 
 # code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+
+        # booleans
+            name = 'Thomas'
+            is_cool = False
+
+            is_cool = True
+
+            print(bool('True')) # true = 1 false = 0; all there is too it
 
 ```
 
@@ -601,12 +611,22 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # make a program that guessses a users age based on the birth yeaer input
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+        # import datetime function
+        from datetime import datetime
+
+
+        # ask for users birthday
+        input("What year were you born in?")
+
+
+        # store birthday input in var
+        user_age = input 
+
+
+        # print age
+        print(user_age)
 
 ```
 
