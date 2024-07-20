@@ -760,7 +760,8 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
     # update list syntax
     amazon_cart[0] = 'laptop'   # grabs 0 indexed item and changes it to 'laptop'
-
+    print(amazon_cart[1:3])
+    print(amazon_cart)
 
 ```
 ## Day 16 - 2024-07-20 
@@ -769,7 +770,6 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-# high-level ideas points from the lesson
   # key point:
   # key point:
   # key point:
