@@ -793,25 +793,76 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point: methods update the list in place; a new list isn't created in memory so it can't be printed
+    # key point: to update the list value you must assign the new value to a var and print the new var
+    # key point: 
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
 
+    # list methods syntax
+
+        # len
+        basket = [1, 2, 3, 4, 5]
+        print(len(basket)) # returns the human readable length of the list; does not start counting from zero
+
+    # adding
+
+        # append
+        new_list = basket.append(100)   # appends 100 to the end of the list
+        print(basket)                   # returns: basket w/ 100 appended
+        print(new_list)                 # return: none since append changes the list in place 
+
+        basket.append(100)
+        new_list = basket
+        print(basket)                   # return basket w/ 100 appended because the new appended list was assigned to a var
+
+        # insert
+        basket.insert(4, 100)           # add 100 to index of 4 in the list (inxed, value)
+                                        # insert modifies the list in place; it dones't create a new list 
+
+        # extend
+        basket = [1, 2, 3, 4, 5]
+        new_list = basket.extend[100, 101]      # this method takes an iteratable; something you can loop over
+        print(basket)                           # return: [1, 2, 3, 4, 5, 100, 101]
+        print(new_list)                         # return: None because the list was modified in place
+
+    # removing
+
+        # .pop (index to remove)
+        basket = [1, 2, 3, 4, 5]
+        new_list = basket.extend([100])     # adds 100 to list end
+        basket.pop()                        # pops off value at list end; return: [1, 2,3, 4, 5] w/o the extended value of 100  
+        basket.pop()                        # pops off the next last value; return: [1, 2, 3, 4] w/o new list end value of 5
+
+        basket.pop(0)                       # removes obj in the index value within the Parentheses; removes [1] in this case
+        basket.pop(2)                       # removes obj with index vallue of 2; removes 3 in this case
+
+
+        # remove (value to remove)
+        basket = [1, 2, 3, 4, 5]
+
+        new_list = basket.extend([100])
+
+        basket.remove(4)                    # remove method requires the value you want to be removed within parenthese; not the index
+        print(basket)                       # prints [1, 2, 3, 5] because 4 was removed from this list
+
+
+        # clear method ()
+        new_list = basket.clear()
+        print(basket)                       # returns [] because this list is completely cleared
 ```
 
 ### List Methods 2
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point: know which methods require an index to be passed within the parenthese and which require an index to be passed
+    # key point: in, count
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # syntax
+
+    basket = ['a', 'b', 'c', 'd', 'e']
+    print(basket.index)                     # index(variable_name(value, start, stop))
+
 
 ```
 
@@ -819,12 +870,11 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point:
+    # key point:
+    # key point:
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # syntax
 
 ```
 
