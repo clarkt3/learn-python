@@ -770,11 +770,22 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
 ```Python
 
-  # key point:
-  # key point:
-  # key point:
+    # key point: matrix = list of lists
+    # key point: you can find values in matrices by using [value of the matrix you want] [value of index of the matrix you want]
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # matrix syntax
+    matrix = [
+    [1, 2, 3],
+    [2, 4, 6],
+    [7, 8, 9]
+    ]
+
+    # access multi-dementional list
+    print(matrix [1] [2]) # this returns 6; you're going asking for digit index of 2 in array 1
+
+    # pay close attention to the commas at the end of each array; it may throw an error if they're not there.
+    # matricies come up a lot in Machine Learning and Image Processing - so this is important for me to grasp
+
 
 ```
 
