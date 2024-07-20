@@ -827,7 +827,7 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
 
     # removing
 
-        # .pop (index to remove)
+        # .pop(leave balnk to pop last item off the list OR pass index value to remove)
         basket = [1, 2, 3, 4, 5]
         new_list = basket.extend([100])     # adds 100 to list end
         basket.pop()                        # pops off value at list end; return: [1, 2,3, 4, 5] w/o the extended value of 100  
@@ -861,7 +861,60 @@ The beauty of this method is that it doesn't need to be perfect your first go ar
     # syntax
 
     basket = ['a', 'b', 'c', 'd', 'e']
-    print(basket.index)                     # index(variable_name(value, start, stop))
+    print(basket.index('d', 0, 2))          # index(variable_name(value, start, stop))
+
+    print(basket.index('d', 0, 2))          # returns error since 'd' does not exist between index 0 and 2
+
+    print(basket.index('d', 0, 3))          # returns error because it stops before index 3
+
+    print(basket.index['d', 0, 4])          # returns index value of 'd', which in this case is 3 
+
+    # python key word in
+    print('d' in basket)                    # eliminates the error if the start stop index are not correct
+    print('d' in basket)                    # prints bool of True since 'd' is in the basket
+    print('z' in basket)                    # prints bool of False since 'z' is not in the basket
+
+    print('i' in 'hi my name is Ian')       # prints true because i is within the string
+
+    # count
+    basket = ['a', 'b', 'c', 'd', 'e', 'd']
+    print(basket.count('d'))                # returns 2 because the value 'd' occurs in our list
+
+    # exervise solutions
+    # Exercise List Methods
+# using this list,
+basket = ["Banana", "Apples", "Oranges", "Blueberries"]
+
+# 1. Remove the Banana from the list
+print(basket)
+new_list = basket.remove('Banana')
+print(basket)
+print(basket.remove('Banana'))
+
+# 2. Remove "Blueberries" from the list.
+print(basket)
+new_list = basket.pop()
+print(basket)
+
+# 3. Put "Kiwi" at the end of the list.
+print(basket)
+new_basket = basket.append('Kiwi')
+print(basket)
+
+# 4. Add (insert) "Apples" at the beginning of the list
+print(basket)
+new_basket = basket.insert(0, "Apples")
+print(basket)
+
+# 5. Count how many apples in the basket
+print(basket)
+new_basket = basket.count("Apples")
+print(new_basket)
+
+# 6. empty the basket
+print(basket)
+empty_basket = basket.clear()
+print(empty_basket)
 
 
 ```
