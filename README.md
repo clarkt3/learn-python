@@ -972,7 +972,7 @@ print(empty_basket)
 
     print(range(1, 100)         # prints range(1, 100)
     print(list(range(100)))     # prints list from 1 to 99; doesn't print 100; to print 100 the stopping point must be changed to 101
-    
+
     # .join: a string method
     sentence = ''
     sentence.join(['Hi', 'my', 'name', 'is', 'JOJO'])   # nothing prints here because there's nothing to join to
@@ -1028,14 +1028,44 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point: dictionary is an unordered key-value pair data type
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # code sample 0
+
+    unordered_key_value_pair = {
+        'a': [1,2,4]
+        'b': 'Ello Gov'
+        'b': True
+    }
+
+    print(unordered_key_value_pair['a'[1]]      # this prints the index value of 1 within the 'a' key'
+
+    # code sample 1
+    dictionary = {
+    'a': [1, 2, 3],
+    'b': 'hello',
+    'x': True
+    }
+
+
+
+    my_list = [
+    {
+    'a': [1,2,4]
+    'b': 'Ello Gov'
+    b': True
+    },
+    {
+    'a': [4,5,6],
+    'b': 'hello',
+    'x': True
+    }
+    ]
+    print(my_list['a'][2])              # prints 3
+    print(dictionary['a'] [1])          # prints 2
 
 ```
+## Day 18 - 2024-07-22
 
 ### 3.7 Updates: Ordered Dict
 
