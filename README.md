@@ -1015,12 +1015,12 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point: represents the absence of value
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # code samples
+    weapons = None  # at the beginning of a video game the users weapons value is set to None because he/she has nothing 
+    print(weapons)
+
 
 ```
 
