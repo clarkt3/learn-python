@@ -996,12 +996,18 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+  # key point: assign multiple vars a value asign others to var other; assign another var to the end
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # list unpacking
+    a,b,c, *other, d, e =  [1,2,3,4,5,6,7,8,9,10]
+
+    print(a)        # prints 1
+    print(b)        # prints 2
+    print(c)        # prints 3
+    print(other)    # prints 4 - 8
+    print(d)        # prints 9 because it's assigned to d
+    print(e)        # prints 10
+
 
 ```
 
