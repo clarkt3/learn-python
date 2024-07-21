@@ -918,16 +918,44 @@ print(empty_basket)
 
 
 ```
+## Day 17 - 2024-07-21
+
 
 ### List Methods 3
 
 ```Python
 
-    # key point:
-    # key point:
-    # key point:
+    # key point: list can be modified by methods and functions -> know which operator is going to change the var in place or redefine it completely
+
 
     # syntax
+    basket = ['a', 'b', 'c', 'd', 'e', 'd']
+
+    print(basket.count('d'))    # prints how many times 'd' occurs in the list 
+    print(basket.sort())        # this returns None because sort modifies the list in place
+
+    basket.sort()               # this sorts the basket
+    print(basket)               # prints the new variable basket
+
+    # built in functions
+    sorted(basket)              # the sorted function produces a new list; it does not modify in place like the basket.sort method
+    print(basket)               # basket has not been modified 
+    print(sorted(basket))       # this sorts the basket but doesn't change the basket var
+    print(basket)               # this prints the sorted basket but doesn't modify the basket var, which can still be called
+
+    # copy method
+    new_basket = basket.copy()  # simply copies the list and returns a new list
+
+    # reverse method
+    basket.reverse()            # reverses the order of the basket in place; it's not sorting just reversing
+
+    # potential interview question
+    basket = ['a', 'b', 'c', 'd', 'e', 'd']
+    basket.sort()               # sorts the basket
+    basket.reverse()            # reverses the basket list order
+    print(basket)               # prints the basket in reverse order
+
+    
 
 ```
 
