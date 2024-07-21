@@ -964,12 +964,31 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point: range(start, stop) prints 1 -> 99 stopping at 100; will not print 100
+    # key point: .join(iterable) used on strings
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # list slicing creates a new list
+    # list slicing syntax list[start:stop:step]
+
+    print(range(1, 100)         # prints range(1, 100)
+    print(list(range(100)))     # prints list from 1 to 99; doesn't print 100; to print 100 the stopping point must be changed to 101
+    
+    # .join: a string method
+    sentence = ''
+    sentence.join(['Hi', 'my', 'name', 'is', 'JOJO'])   # nothing prints here because there's nothing to join to
+
+    sentence = '!'
+    sentence.join(['Hi', 'my', 'name', 'is', 'Jojo'])   # joins '!' after each word
+
+    new_sentence = sentence.join(['hi', 'my', 'name', 'is', 'JoJo' ])   # assigns value to new var
+
+    print(new_sentence)                                 # prints ! after every word it's joined to
+
+    # short-hand syntax
+    new_sentence = ' '.join(['hi', 'my', 'name', 'is', 'jojo'])
+
+    print(new_sentence)             # prints the same as above with clearner code
+
 
 ```
 
