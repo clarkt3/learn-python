@@ -1090,16 +1090,49 @@ print(empty_basket)
 
 ```
 
+### Dictionary Keys
+
+```Python
+
+    # key point(s):
+        # 1. a dict key  must be immutable
+        # 2. a dict key must be unique
+        # 3. if a dict key is not unique it will be over written
+
+    # code sample(s) to reinforce muscle memory and master the syntax
+
+    # dictionary
+
+    dictionary = {
+    'weapons': [1,2,3],
+    'greetings': 'hello',
+    'is_Magic': True
+    }
+
+    print(dictionary['a'][1])
+
+    # key values MUST  be immutable data
+
+    dictionary = {
+    '123'   : [1,2,3],          # this works
+    True  : 'hello',            # True (bool) works
+    [100] : True                # this will error becuase a list IS immutable
+    '123' : 'hello'             # key value must be unique or the value will be replaced by the next vars value
+    }
+
+    print(dictionary['123'])
+
+
+```
 ### Dictionary Methods
 
 ```Python
 
   # key point(s):
-    # 1. 
+    # 1.
     # 2.
 
   # code sample(s)
-
 
 ```
 
