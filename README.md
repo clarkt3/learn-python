@@ -1128,11 +1128,23 @@ print(empty_basket)
 
 ```Python
 
-  # key point(s):
-    # 1.
-    # 2.
+    #  code sample(s)
 
-  # code sample(s)
+    # dictionary
+    user = {
+    'basket': [1,2,3],
+    'greet': 'Hello'
+    }
+
+    # print function(s)
+    print(user['age'])          # return = error because there's no 'age' key in the dict
+    print(user.get('age'))      # return = None w/o error so program doesn't stop
+    print(user.get('age', 55))  # return = sets default age to 55 ('key', default value)
+
+    # less common way to create a dict
+    user2  = dict(name='Tommy Boi')
+    print(use2)                 # return: {'name': 'JohnJohn'}
+
 
 ```
 
