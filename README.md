@@ -918,10 +918,10 @@ print(empty_basket)
 
 
 ```
-## Day 17 - 2024-07-21
+### Day 17 - 2024-07-21
 
 
-### List Methods 3
+#### List Methods 3
 
 ```Python
 
@@ -955,11 +955,10 @@ print(empty_basket)
     basket.reverse()            # reverses the basket list order
     print(basket)               # prints the basket in reverse order
 
-    
 
 ```
 
-### Common List Patterns
+#### Common List Patterns
 
 
 ```Python
@@ -992,7 +991,7 @@ print(empty_basket)
 
 ```
 
-### List Unpacking
+#### List Unpacking
 
 ```Python
 
@@ -1011,7 +1010,7 @@ print(empty_basket)
 
 ```
 
-### None
+#### None
 
 ```Python
 
@@ -1024,7 +1023,7 @@ print(empty_basket)
 
 ```
 
-### Dictionaries
+#### Dictionaries
 
 ```Python
 
@@ -1065,19 +1064,20 @@ print(empty_basket)
     print(dictionary['a'] [1])          # prints 2
 
 ```
-## Day 18 - 2024-07-22
+### Day 18 - 2024-07-22
 
-### 3.7 Updates: Ordered Dict
+#### 3.7 Updates: Ordered Dict
 
 
 ```Python
 
-    # key point: 
+    # key point: dicts are now ordered
 
     # code samples
+
 ```
 
-### DEVELOPER FUNDEMENTALS III
+#### DEVELOPER FUNDEMENTALS III
 
 ```Python
 
@@ -1087,10 +1087,9 @@ print(empty_basket)
 
     # know what data type to use and when to use it - you can always good or GPT this info
 
-
 ```
 
-### Dictionary Keys
+#### Dictionary Keys
 
 ```Python
 
@@ -1124,7 +1123,7 @@ print(empty_basket)
 
 
 ```
-### Dictionary Methods
+#### Dictionary Methods
 
 ```Python
 
@@ -1148,64 +1147,62 @@ print(empty_basket)
 
 ```
 
-### Tuples
+#### Tuples
 
 ```Python
 
-  # key point(s):
-    # 1. 
-    # 2.
+    # key point:
 
-  # code sample(s)
+    # code sample
+
+    # print statements
 
   ```
 
-### Tuples 2
+#### Tuples 2
 
 ```Python
 
-  # key point(s):
-    # 1.
-    # 2.
+  # key point:
 
-  # code sample(s)
+  # code sample
+
+  # print statements
 
 ```
 
-### Sets
+#### Sets
 
 ```Python
 
-  # key point(s):
-    # 1.
-    # 2.
+  # key point:
 
-  # code sample(s)
+  # code sample
+
+  # print statements
 
 ```
 
-## Sets 2
+#### Sets 2
 
 ```Python
 
-  # key point(s):
-    # 1.
-    # 2.
+  # key point:
 
-  # code sample(s)
+  # code sample
+
+  # print statements
 
 ```
 
-## < > Unlimited Updates
+#### < > Unlimited Updates
 
 ```Python
 
-  # key point(s):
-    # 1.
-    # 2.
+  # key point:
 
-  # code sample(s)
+  # code sample
+
+  # print statements
 
 ```
-
-
