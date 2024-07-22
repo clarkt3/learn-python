@@ -1072,25 +1072,21 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point: 
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
-
+    # code samples
 ```
 
 ### DEVELOPER FUNDEMENTALS III
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+    # key point: good dev knows when to use what data type.
+    # key point: dict holds key, value pair
+    # key point: list only requires a value within the list
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+    # know what data type to use and when to use it - you can always good or GPT this info
+
 
 ```
 
