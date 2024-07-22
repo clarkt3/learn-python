@@ -1094,12 +1094,12 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+  # key point(s):
+    # 1. 
+    # 2.
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+  # code sample(s)
+
 
 ```
 
@@ -1107,25 +1107,23 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+  # key point(s):
+    # 1. 
+    # 2.
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+  # code sample(s)
 
-```
+  ```
 
 ### Tuples 2
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+  # key point(s):
+    # 1.
+    # 2.
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+  # code sample(s)
 
 ```
 
@@ -1133,12 +1131,11 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+  # key point(s):
+    # 1.
+    # 2.
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+  # code sample(s)
 
 ```
 
@@ -1146,12 +1143,11 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+  # key point(s):
+    # 1.
+    # 2.
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+  # code sample(s)
 
 ```
 
@@ -1159,12 +1155,11 @@ print(empty_basket)
 
 ```Python
 
-# high-level ideas points from the lesson
-  # key point: 
-  # key point:
-  # key point: 
+  # key point(s):
+    # 1.
+    # 2.
 
-# code samples: hand written to improve muscle memory, develop clean code, and improve attention to detail
+  # code sample(s)
 
 ```
 
