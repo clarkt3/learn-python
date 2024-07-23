@@ -1210,17 +1210,31 @@ print(empty_basket)
         print(user)
   ```
 
-#### Tuples 2
+#### Tuples 
 
 
 ```Python
 
-  # key point:
+    # key point: immutable lists
+    # use case: faster than lists; think latitude and longitude for uber location
+    # use case 2: uber passenger pickup location; new tuple created if user moves p/u location
+    # code sample
+    my_tuple = (1, 2, 3, 4, 5)
+    my_tuple[1] = 'z'       # error: item does not support item assignment
 
-  # code sample
+    # print statements
+    print(my_tuple[1])      # return: index 1 of tuple (remember 0 index)
+    print(5 in my_tuple)    # input: value of 5; output: True - 5 does exist in my_tuple
 
-  # print statements
+    # print tuple from list
+    user = {
+    'basket': {1, 2, 3, 4, 5},
+    'greet': 'hello',
+    'age': 20
+    }
 
+    # print a tuple from a list
+    print(user.items())       #this prints the items in user list in a tuple
 ```
 
 #### Sets
