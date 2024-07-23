@@ -1125,6 +1125,7 @@ print(empty_basket)
 ```
 #### Dictionary Methods
 
+
 ```Python
 
     #  code sample(s)
@@ -1146,20 +1147,71 @@ print(empty_basket)
 
 
 ```
+## Day 19 - 2024-07-23
 
-#### Tuples
+#### Dictionary Methods 2
+
 
 ```Python
 
-    # key point:
+    # key point: you can dict with more methods
 
-    # code sample
 
-    # print statements
 
+    # code sample:
+
+        # dict
+        user = {
+        'basket': [1, 2, 3],
+        'greet': 'hello',
+        'age': 20
+        }
+
+    # print statements:
+
+        # in method
+        print('basket' in user)             # return: True since basket does exist as a key in user dict
+        print('size' in user)               # return: False since 'size' does NOT exist as a key in user dict
+        print('age' in user.keys())         # return: True since 'age' does exist as a key in the user dict
+        print('age' in user.values())       # return: False because 'age' does NOT exist in the user dict as a value; it exists as a key
+        print('hello' in user.values())     # return: True since 'hello' does exist in the user dict as a value
+        print(user.items())                 # return: Tupple, which has not been discussed at this point
+        print(user.clear())                 # return: None because the dict is now empty and therefore does NOT have a value
+
+    # Code Sample 2
+
+        user = {
+        'basket': [1, 2, 3],
+        'greet': 'hello',
+        'age': 20
+        }
+        user.clear()                        # clears the dict in place but the dict still exists 
+        print(user)                         # return: empty dict {}
+
+        user2 = user.copy()                 # copies user dict to user2 var
+        print(user)                         # return: original dict
+        print(user2)                        # return: copy dict
+
+        # clear
+        user2 = user.copy()
+        print(user.clear())                 # return: None because the dict was cleared and how now value
+        print(user2)                        # return: copy of user dict because the clear only cleared the dict in place NOT in memory 
+
+        # .pop method
+        print(user.pop'age')                # return: 20 because .pop returns the value of what ever got removed
+        print(user)                         # return: dict w/o the key value pair of 'age': 20
+
+        # .popitem method
+        print(user.popitem())               # return: pops off the last item since Python version 3.7; since the pop is now 0 indexed 
+
+        # .update method syntax 
+        print(user.update({'key': value}))  # return: updated key:value pair with new value
+        print(user.update({'age': 55}))
+        print(user)
   ```
 
 #### Tuples 2
+
 
 ```Python
 
