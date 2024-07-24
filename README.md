@@ -1303,24 +1303,25 @@ print(empty_basket)
     my_set.clear()              # clears the set
     print(new_set)              # output: copy of my_set - {1,2,3,4,5}
     print(my_set)               # output: clear set - set()
-    
-
 
     # refresher
         # method syntax: .methodname
         # function syntax: functionname()
 
 ```
-
-#### < > Unlimited Updates
+#### Sets 2
 
 ```Python
 
-    # key point: there are no duplicate values in a set; all values must be unique
+    # key point:
 
-    # syntax 
+    # syntax:
 
-    # code:
+    # exercise:
+
+```
+#### < > Unlimited Updates
+
 
 
 ```
