@@ -1315,7 +1315,7 @@ print(empty_basket)
 
 # key point: set methods exist so know how to search for them when appropriate
 
- # syntax:
+# syntax:
 my_set = {value, value, value, value}   # insert values with {}
 
 # code:
