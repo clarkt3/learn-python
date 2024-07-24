@@ -1314,7 +1314,7 @@ print(empty_basket)
 ```Python
 
 # key point: set methods exist so know how to search for them when appropriate
-
+# Set Method Docs: https://www.w3schools.com/python/python_ref_set.asp
 # syntax:
 my_set = {value, value, value, value}   # insert values with {}
 
