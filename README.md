@@ -1235,9 +1235,22 @@ print(empty_basket)
 
     # print a tuple from a list
     print(user.items())       #this prints the items in user list in a tuple
-```
 
-#### Sets
+    # Tuple
+    my_tuple = (1,2,3,4,5)
+    print(5 in my_tuple)        # return: True since val 5 exists in tuple
+
+    user = {
+    (1, 2) : [1,2,3],
+    'greet': 'hello',
+    'age': 20
+    }
+
+    print(user[(1,2)])           # output: list value after (1,2) key
+```
+### Day 20 | 2024-07-24
+
+#### Tuples 2
 
 ```Python
 
