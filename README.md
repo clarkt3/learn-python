@@ -1350,8 +1350,6 @@ your_set = {4,5,6,7,8,9,10}
 print(my_set.issubset(your_set))        # output: True b/c my_set values are  w/i your_set
 print(your_set.issuperset(your_set))    # output: False b/c my_set not enc in your_set 
 ```
-#### < > Unlimited Updates
+#### Section Complete on 2024-07-24
 
-
-
-```
+#### A New Folder will be created to host the remaining sections of Python
