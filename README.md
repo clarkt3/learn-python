@@ -1313,11 +1313,17 @@ print(empty_basket)
 
 ```Python
 
-    # key point:
+    # key point: set methods exist so know how to search for them when appropriate
 
     # syntax:
+    my_set = {value, value, value, value}   # insert values with {}
 
     # exercise:
+    my_set = {1,2,3,4,5}
+    your_set = {4,5,6,7,,8,9,10}
+
+    .difference()                       # output: the difference between two sets 
+    print(my_set.difference(your_set))  # output: diff btw 
 
 ```
 #### < > Unlimited Updates
