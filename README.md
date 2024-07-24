@@ -1313,39 +1313,39 @@ print(empty_basket)
 
 ```Python
 
-    # key point: set methods exist so know how to search for them when appropriate
+# key point: set methods exist so know how to search for them when appropriate
 
-    # syntax:
-    my_set = {value, value, value, value}   # insert values with {}
+ # syntax:
+my_set = {value, value, value, value}   # insert values with {}
 
-    # code:
-    my_set = {1,2,3,4,5}
-    your_set = {4,5,6,7,,8,9,10}
+# code:
+my_set = {1,2,3,4,5}
+your_set = {4,5,6,7,,8,9,10}
 
-    .difference()                       # displays the  difference between two sets 
-    print(my_set.difference(your_set))  # output: diff btw my_set & your_set
+.difference()                       # displays the  difference between two sets 
+ print(my_set.difference(your_set))  # output: diff btw my_set & your_set
 
-    .discard                            # remove element from set if it is a member
-    print(my_set.discard(5))            # output: my_set w/o 5; 5 was removed
+.discard                            # remove element from set if it is a member
+print(my_set.discard(5))            # output: my_set w/o 5; 5 was removed
 
-    .difference_update()                # remove all elements of another set from this set
-    print(my_set.difference_update(your_set))   # output: None b/c it first modifies the set
-    print(my_set)                       # output: diff btw sets
+.difference_update()                # remove all elements of another set from this set
+print(my_set.difference_update(your_set))   # output: None b/c it first modifies the set
+print(my_set)                       # output: diff btw sets
 
-    .intersection()                         # intersection(self, other)
-    print(my_set.intersection(your_set))    # output: 4, 5 b/c both sets have value 4, 5
-    (my_set & your_set)                     # short-hand version of the above
+.intersection()                         # intersection(self, other)
+print(my_set.intersection(your_set))    # output: 4, 5 b/c both sets have value 4, 5
+(my_set & your_set)                     # short-hand version of the above
 
-    .isdisjoint()                       # True if sets do NOTshare common values
-    .isdisjoint()                       # False if sets do share connom values
+.isdisjoint()                       # True if sets do NOTshare common values
+.isdisjoint()                       # False if sets do share connom values
 
-    .union()                            # unites sets but removes duplicates
-    print(my_set.union(your_set))       # output: combination of two sets {1,2,3,4,5,6,7...}
-    (my_set | your_set)                 # shorthand verions of the above
+.union()                            # unites sets but removes duplicates
+print(my_set.union(your_set))       # output: combination of two sets {1,2,3,4,5,6,7..}    
+(my_set | your_set)                 # shorthand verions of the above
 
-    # code:
-    my_set = {4, 5}
-    your_set = {4,5,6,7,8,9,10}
+# code:
+ my_set = {4, 5}
+your_set = {4,5,6,7,8,9,10}
 
 print(my_set.issubset(your_set))        # output: True b/c my_set values are  w/i your_set
 print(your_set.issuperset(your_set))    # output: False b/c my_set not enc in your_set 
