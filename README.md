@@ -1325,7 +1325,7 @@ your_set = {4,5,6,7,,8,9,10}
 .difference()                       # displays the  difference between two sets 
  print(my_set.difference(your_set))  # output: diff btw my_set & your_set
 
-.discard                            # remove element from set if it is a member
+.discard()                          # remove element from set if it is a member
 print(my_set.discard(5))            # output: my_set w/o 5; 5 was removed
 
 .difference_update()                # remove all elements of another set from this set
