@@ -1273,7 +1273,13 @@ print(empty_basket)
 
     # main point: there are no duplicate values in a set; all values must be unique
 
-    # syntax: 
+    # syntax:
+    my_set = {1,2,3,4,5}
+    print(my_set)               # output: {1,2,3,4,5}
+
+    my_set = {1,2,3,4,5,5}
+    print(my_set)               # output: {1,2,3,4,5} first '5' only - unique value only
+
 
     # code:
 
