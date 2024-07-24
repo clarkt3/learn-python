@@ -1254,23 +1254,27 @@ print(empty_basket)
 
 ```Python
 
-  # key point:
+    # key point: tuples only have two methods
+        1. count()
+        2. index()
 
-  # code sample
+    # code: 
+    my_tuple = (1,2,3,4,5,5)
 
-  # print statements
+    print(my_tuple.count(5))    # Output: number of occourances of '5' = 2
+    print(my_tuple.index(5))    # output: index of first value of  '5' = 4
+    print(len(my_tuple))        # output: counts values in tuple = length of tuple
 
 ```
 
-#### Sets 2
+#### Sets
 
 ```Python
 
-  # key point:
+    # main point:
 
-  # code sample
+     # code:
 
-  # print statements
 
 ```
 
