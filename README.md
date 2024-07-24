@@ -1267,13 +1267,15 @@ print(empty_basket)
 
 ```
 
-#### Sets
+#### Sets - Unordered Collections of Unique Objects
 
 ```Python
 
-    # main point:
+    # main point: there are no duplicate values in a set; all values must be unique
 
-     # code:
+    # syntax: 
+
+    # code:
 
 
 ```
@@ -1282,10 +1284,11 @@ print(empty_basket)
 
 ```Python
 
-  # key point:
+    # key point: there are no duplicate values in a set; all values must be unique
 
-  # code sample
+    # syntax 
 
-  # print statements
+    # code:
+
 
 ```
