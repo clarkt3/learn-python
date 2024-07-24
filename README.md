@@ -1261,7 +1261,7 @@ print(empty_basket)
     # code: 
     my_tuple = (1,2,3,4,5,5)
 
-    print(my_tuple.count(5))    # Output: number of occourances of '5' = 2
+    print(my_tuple.count(5))    # output: number of occourances of '5' = 2
     print(my_tuple.index(5))    # output: index of first value of  '5' = 4
     print(len(my_tuple))        # output: counts values in tuple = length of tuple
 
@@ -1273,7 +1273,7 @@ print(empty_basket)
 
     # main point: there are no duplicate values in a set; all values must be unique
 
-    # syntax:
+    # syntax
     my_set = {1,2,3,4,5}
     print(my_set)               # output: {1,2,3,4,5}
 
@@ -1281,8 +1281,34 @@ print(empty_basket)
     print(my_set)               # output: {1,2,3,4,5} first '5' only - unique value only
 
 
-    # code:
+    # code
+    my_set = {1,2,3,4,5,5}
+    my_set.add(100)
+    my_set.add(2)
+    print(my_set)               # output: 100 is added but 2 is not; 2 already exists
 
+    # exercise
+    my_list = [1,2,3,4,5,5]     # output: list
+    print(set(my_list))         # output: converts list to set = {1,2,3,4,5}
+
+    print(my_set[0])            # output: error - 'set' obj does not support indexing
+
+    # functions
+    print(1 in my_set)          # output: True - the value does exist in the set
+
+    print(list(my_set))
+
+    my_set = {1,2,3,4,5,5}
+    new_set = my_set.copy()     # copies my_set to new_set
+    my_set.clear()              # clears the set
+    print(new_set)              # output: copy of my_set - {1,2,3,4,5}
+    print(my_set)               # output: clear set - set()
+    
+
+
+    # refresher
+        # method syntax: .methodname
+        # function syntax: functionname()
 
 ```
 
