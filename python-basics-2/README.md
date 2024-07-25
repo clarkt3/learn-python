@@ -132,5 +132,25 @@
         print('Please provide your username and password.')
 
  ```
+#### Short Circuiting
 
+```Python
+
+    # gist: the keyword or is more performant than and b/c it short circuits the if statment 
+
+    # syntax:
+    if var_name or var_name2    # evaluates 1st var for Truthy, runs the remainder of the code
+
+    # code:
+    is_Friend = True
+    is_User = True
+
+    if is_Friend or is_User
+        Print('Best friends Forever')   # output: b/c is_Friend = Truthy; remainder isn't run
+
+    # or is more performant than and b/c if first question = truthy remainder doesn't  execute
+
+    # and works the same way if one value is Fals(y) remainder of code isn't executed
+
+```
 
