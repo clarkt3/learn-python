@@ -6,7 +6,7 @@
 
 ```Python
 
-    # key point:
+    # key point: use machines to do repetitive tasks really fast
 
     # syntax example:
 
