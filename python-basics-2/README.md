@@ -126,10 +126,11 @@
     username = 'Tommy'
 
     # Truthy and Falsy
-    if password and username:
+    if password and username:    # password & username = Truthy b/c they exist'
         print('Welcome - you have logged in successfully!')
     else:
         print('Please provide your username and password.')
 
-
  ```
+
+
