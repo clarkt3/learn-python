@@ -60,11 +60,37 @@
 
 ```Python
 
-# key point:
+    # gist: spaces help the interpreter break code into blocks
 
-# syntax example:
+    # syntax:
+    keep it clean
+    4 spaces or 1 tab is interperted the same
+    if:
+        print('hi')
+    else:
+        print('bye')
 
-# code samples:
+    # code:
+    is_old = True
+    is_licensed = True
+
+    if is_old and is_licensed:
+        print('you are old enough to drive, and you have a license!')   # output: True
+    else:
+        print('you are not of age!')
+
+        print('alright, alright, alright')
+
+    is_old = True
+    is_licensed = False
+
+    if is_old and is_licensed:
+        print('you are old enough to drive, and you have a license')    # output: not printed
+
+    else:
+        print('you are not of age!')    # output: 'you are not of age' b/c is_licensed = False
+
+        print('Alright - come back when you\'re old enough')    # output: b/c else is run
 
 
 ```
