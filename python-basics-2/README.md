@@ -92,18 +92,44 @@
 
         print('Alright - come back when you\'re old enough')    # output: b/c else is run
 
-
 ```
 
-#### Indentation In Python
+#### Truthy vs Falsey
 
  ```Python
 
- # key point:
+ # gist: Python3 has dictated what values are truthy and what and what values are falsey 
 
- # syntax example:
+ # list of falsy:
+    # None
+    # False
+    # 0
+    # 0.0
+    # 0j
+    # Decimal(0)
+    # Fraction(0,1)
+    # [] - empty list
+    # {} - empty dict
+    # () - empty tuple
+    # '' - empty str
+    # b''- empty bytes
+    # set() - empty set
+    # an empty range, like range(0)
+    # objects for which
+        # obj.__bool__() returns False
+        # obj.__len__()  returns 0
 
- # code samples:
+ # all other items are truthy.
+
+ # code:
+    password = '1,2,3'
+    username = 'Tommy'
+
+    # Truthy and Falsy
+    if password and username:
+        print('Welcome - you have logged in successfully!')
+    else:
+        print('Please provide your username and password.')
 
 
  ```
