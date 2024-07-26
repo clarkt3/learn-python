@@ -1,5 +1,3 @@
-# Python Basics 2
-
 ### Day 21 of 100 | 2024-07-25
 
 #### Breaking The Flow
@@ -192,5 +190,30 @@
     print(not(True))    # output: False: not prints the oposite of the value in paraenthesis
 ```
 
+#### Exercise: Logical Operators
 
+```Python
+
+    """ gist: conditional logic can be correctly written
+    in more ways than one. They idead is to make it easy
+    to understand for yourself and other programmers: when
+    they look at your code in a collaborative env"""
+    
+
+    # exercise solution below
+
+    is_magician = True
+    is_expert = False
+
+    # check if magician and expert: 'you are the master magician'
+    if is_magician and is_expert: 
+        print('you are the master magician')
+    # check if magician but not expert: 'at least you're getting there'
+    elif is_magician:  # more easily readable: is_magician and not is_expert
+        print("at least you're getting there")
+    # if you're not a magician: 'you need magical powers'
+    else: # readability: else not is_magician
+        print('you need magical powers')
+
+```
 
