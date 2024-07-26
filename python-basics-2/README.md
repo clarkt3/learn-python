@@ -153,4 +153,44 @@
     # and works the same way if one value is Fals(y) remainder of code isn't executed
 
 ```
+### Day 23 of 100 | 2024-07-26
+
+#### Logical Operators
+
+```Python
+
+    # gist: understand operand values, how  operators wrok and how to looks them up if needed
+
+    # syntax:
+    ==   # equal to w/o reassigning value
+    !=   # not equal to
+    >    # greater than
+    <    # less than
+    >=   # greater than or equal to
+    <=   # less than or equalt to
+
+    and  # must meet both conditions on either side of the if elif statement
+    or   # only needs to meet one of the if statement qualifiers
+    not  # the opposite of what ever value is w/i the statement
+
+    # code:
+    print(4 > 5)        # False b/c 4 is less than 5
+    print(4 < 5)        # True b/x 4 is less than 5
+    print(4 == 5)       # False, b/c 4 and 5 are NOT equal
+    print('a' > 'b')    # False b/c python assigns numerical values to all letters
+
+    print('a' > 'A')    # Ture, b/c python3 assigns numerical value to all letters
+
+    print(1 < 2 <3)     # True, b/c it's all true
+    print(1 < 2 > 3 < 4)# False, b/c 2 is NOT greater than 3; program short curcuits - done
+    print(1 <= 2)       # False b/c 1 is less than 2 but NOT equal; only one need to be true
+
+    print(0 != 0)       # False b/c 0 IS = 0
+
+    print( 0 != 1)      # True because 0 is NOT equal to 1
+
+    print(not(True))    # output: False: not prints the oposite of the value in paraenthesis
+```
+
+
 
