@@ -151,7 +151,7 @@
     # and works the same way if one value is Fals(y) remainder of code isn't executed
 
 ```
-### Day 23 of 100 | 2024-07-26
+### Day 22 of 100 | 2024-07-26
 
 #### Logical Operators
 
@@ -198,7 +198,7 @@
     in more ways than one. They idead is to make it easy
     to understand for yourself and other programmers: when
     they look at your code in a collaborative env"""
-    
+ 
 
     # exercise solution below
 
