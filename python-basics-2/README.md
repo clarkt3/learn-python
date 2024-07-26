@@ -198,7 +198,6 @@
     in more ways than one. They idead is to make it easy
     to understand for yourself and other programmers: when
     they look at your code in a collaborative env"""
- 
 
     # exercise solution below
 
@@ -215,5 +214,32 @@
     else: # readability: else not is_magician
         print('you need magical powers')
 
+```
+
+#### is vs ==
+
+```Python
+
+    # == checks only the values not for the exact match
+    # is checks for the exact thing you're looking for
+    # when comparing lists, tupples, dicts w/ is they will never be the same
+    # output of print([1,2,3] is [1,2,3]) is False because they are in different 
+        # spot in memory and a therefor not the same
+
+    # syntax:
+        # ==
+    print(True == 1)    # output: True
+    print('' == 1)      # output: False
+    print([] == 1)      # output: False
+    print(10 == 10.0)   # output: True
+    print([] == [])     # output: True
+
+        # is
+    print(True is 1)    # output: False
+    print('' is 1)      # output: False
+    print([] is 1)      # output: False
+    print(10 is 10.0)   # output: False
+    print([] is [])     # output: False b/c lists are always stored in a different part of memory regardless
+ 
 ```
 
