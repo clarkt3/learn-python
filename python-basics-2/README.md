@@ -246,4 +246,16 @@
 
     # turned on auto save in Vim - YAY!!!
 ```
+### Day 22 of 100 | 2024-07-27
 
+#### For Loops
+
+```Python
+
+    # gist:
+
+    # syntax:
+
+    # use case(s):
+
+```
