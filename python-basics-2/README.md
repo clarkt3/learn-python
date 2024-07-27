@@ -330,15 +330,19 @@
 
 print(sum(my_list))     # all number iterations and 55 as the sum
 
-    # instructor feedback
+# instructor feedback
 
-    my_list = [1,2,3,4,5,6,7,8,9,10]
+my_list = [1,2,3,4,5,6,7,8,9,10]
 
-    # skipped the set a counter var step
-    counter = 0
-    for i in my_list:
-        counter = counter + i
-    print(counter)      # output: 55 = sum of all numbers
+# you didn't set a counter variable in your solution
+counter = 0
+for i in my_list:
+  counter = counter + i
+print(counter)
+
+# counter variable needs to be set before / outside eof the for loop or it will always stop at 10
 
 
 ```
+
+
