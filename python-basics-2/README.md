@@ -246,16 +246,72 @@
 
     # turned on auto save in Vim - YAY!!!
 ```
-### Day 22 of 100 | 2024-07-27
+### Day 23 of 100 | 2024-07-27
 
 #### For Loops
 
 ```Python
 
-    # gist:
+    # gist: machines do repetative things faster than humans
+        # machines do them millions of times ttoo
 
     # syntax:
+    for item in 'Tom Clark':     # item has no intrinsic value; can be called anyhting
+    for i in 'Tom Clark':        # i is used in most programs
+    for i in 'Tom Clark':        # 'tom clark' is the iterable - it gets looped over
+        print(i
 
+        )
     # use case(s):
+    for i in [1,2,3,4,5,6,7,8,9,10]:
+        print(i)
+
+    # works with tupple, and sets -- dicts will be discussed later
+
+    # nested loops
+    for i in [1,2,3,4,5]:
+        for x in ['a', 'b', 'c']:
+        print(item x)
+
+```
+
+#### Iterables
+
+```Python
+
+    # gist: a collection of items: list, dict, set, tuple, string
+        # because they can be iterated -> go one-by-one to check
+        # each item in the collection
+    # add iterating (looping) over something when you're speaking
+        # to other programmers
+    # iterable is the noun, iterate is the verbe
+
+    # syntax -> dict
+    user = {
+    'name': 'Chaz'
+    'age': 45
+    'can_skate': True
+    }
+    for i in user:
+        print(i)        # output: key w/o value
+
+    for i in user.items():
+        print(i)        # output: key/value pair in tuple
+
+    for i in user.values():
+        print(i)
+    for i in user.keys():
+        print(i)        # output: only keys
+
+    # unpacking the tuple
+    for i in user.items():
+        key, value = i
+        print(i)
+
+    # short-hand v. of unpacking a tuple
+    for key, value in user.items():     # even shorter k, v (for key and value)
+        print(key, value)
+
+    # ***integers cannot be iterated over***
 
 ```
