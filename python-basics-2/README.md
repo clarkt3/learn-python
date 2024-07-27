@@ -314,4 +314,31 @@
 
     # ***integers cannot be iterated over***
 
+ ```
+
+#### Exercise: Tricky Counter
+
+```Python
+
+    # code:
+    # counting my solution
+
+    my_list = [1,2,3,4,5,6,7,8,9,10]
+    # iterate over this loop and sum up the total
+    for i in my_list:
+    print(i)
+
+print(sum(my_list))     # all number iterations and 55 as the sum
+
+    # instructor feedback
+
+    my_list = [1,2,3,4,5,6,7,8,9,10]
+
+    # skipped the set a counter var step
+    counter = 0
+    for i in my_list:
+        counter = counter + i
+    print(counter)      # output: 55 = sum of all numbers
+
+
 ```
