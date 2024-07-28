@@ -345,4 +345,73 @@ print(counter)
 
 ```
 
+### Day 23 of 100 | 2024-07-28
+
+#### range()
+
+```Python
+    # gist: print numbers by loog within  a range()
+
+    # syntax: 
+    for i in range(beginning_number, ending_number):
+        print(i)        # output: beginning number to one less than ending umber
+
+    # syntax (third parameter):
+    for _ in range(beginning_number, ending_number, step_over_number):
+        # the default step-over value is 1
+        print(_)        # output: lopp from beginning to ending steped over by step-over value
+
+
+    # code:
+    for i in range(0, 100):
+        print(i)        # output: 0 to 99 printed to screen
+    # the same result can be derived with this syntax
+    for i in range(100):
+        print(i)
+
+    # real-world example: 
+    for i in range(10):
+        print(i)
+
+    # real-world example:
+
+    # if the var name is unimportant when looping use _
+    for _ in range(0, 100):
+        print(_)        # output: 0 to 99 looped
+    # -1 for step-over value
+    for _ in range(0, 10, -1):
+        print(_)        # output: nothing
+
+    for _ in range(10, 0, -1):
+        print(_)        # output: 10 - 1
+                        # if you want to do something in reverse, make sure the value of beginning_number is largest
+                        # if you want to iterate in reverse but skip every other number, use -2
+
+    # list() of range()
+    for _ in range(10):
+        print(list(rang(10)))
+
+```
+
+
+#### enumerate()
+
+```Python
+
+    # gist: enumerate() provides index of output values
+
+    # syntax:
+    for i, char in enumerate('Hello')
+        print(i, char)      # output: index value next to char value
+
+    # code exercise:
+    for i, char in enumerate(list(range(100))):
+        if char == 50:
+            print(f'index of 50 is {i}')
+    # in each exervise think of how you can combine all previous sections in solution
+
+    # keep this one document don't seperate docs for each section on github
+
+```
+
 
