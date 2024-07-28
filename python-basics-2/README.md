@@ -246,7 +246,7 @@
 
     # turned on auto save in Vim - YAY!!!
 ```
-### Day 23 of 100 | 2024-07-27
+### Day 22 of 100 | 2024-07-27
 
 #### For Loops
 
