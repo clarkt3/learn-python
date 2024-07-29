@@ -490,3 +490,15 @@ print(counter)
         if (response == 'Bye'):
             break
 ```
+
+#### break, continue, pass
+
+```Python
+
+    # gist:
+
+    # syntax:
+
+    # code:
+
+```
