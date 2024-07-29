@@ -413,5 +413,51 @@ print(counter)
     # keep this one document don't seperate docs for each section on github
 
 ```
+### Day 24 of 100 | 2024-07-29
 
+#### While Loops
+
+```Python
+
+    # gist: while a condition is happening do isomething 
+        # to break out of a while loops, you must turn 
+        # the condition to false or use a break statement
+
+    # syntax:
+    while condition:
+        print()
+
+    # code:
+    i = 0               # infinate loop until machine crashes
+    while i < 50:
+        print(i)        # output: repeats until stopped b/c 0 is always < 50
+
+    # be careful with while loops
+    # add break statements
+    i = 0 
+    while i < 50 :
+        print(i)
+        break           # breaks the loop 
+
+    i = 0
+    while i < 50:
+        print(i)        # output: prints i 50 times
+        i = i + 1       # break statement in code; stops after 50 iterations
+
+
+    # short-hand code
+    i = 0
+    while i < 50:
+        print(i)
+        i += 1
+
+    # add else statement to code:
+    i = 0 
+    while i < 50:
+        print(i)
+        i++ 1
+    else: 
+        print('All done!')
+
+```
 
