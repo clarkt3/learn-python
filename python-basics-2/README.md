@@ -598,17 +598,24 @@ print(counter)
         print('')                       # output: chirstmas tree designed by * and ' '
  ```
 
-  #### Section Title
+#### Developer Fundementals IV
 
- ```Python
+```Python
 
-     # gist:
+    # gist: What is good code? What does it mean to be a good programmer?
+        # clean -> following the best practices?
+        # readability -> can you and other programmers understand your code
+            # now and in the future...
+        # predictability -> can you write code w/o obscure syntax/tools so 
+            # other devs can understand and predict what the output of your
+            # code will be?
+        # DRY--Do NOT Repeat Yourself
+            # make code reusable
 
-     # syntax:
 
-     # code:
+    # code:
 
- ```
+```
 
   #### Sectopm Title
 
