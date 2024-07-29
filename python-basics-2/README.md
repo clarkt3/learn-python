@@ -460,4 +460,33 @@ print(counter)
         print('All done!')
 
 ```
+#### While Loops 2
 
+```Python
+
+    # gist:
+        # when to use for loop:
+            # for simple loops
+            # for iterating over iterable obj(s)
+        # when to use while loop:
+            # not sure how many times to loop over something
+            # not sure how long it's going to take to loop
+
+
+    # syntax:
+    while True:
+        print(my_list[i])
+        break
+
+    # code:
+    while True:
+        input('Say something: ')
+        break
+
+    # add conditional logic
+
+    while True:
+        response = input('Say something: ')
+        if (response == 'Bye'):
+            break
+```
