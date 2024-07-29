@@ -534,12 +534,68 @@ print(counter)
 
  ```Python
 
-     # gist:
+     # gist: building a graphical UI
 
-     # syntax:
+     # exercise
+    #Display the image below to the right hand side where the 0 is going to be ' ', and the 1 is going to be '*'. This will reveal an image!
+    picture = [
+    [0,0,0,1,0,0,0],
+    [0,0,1,1,1,0,0],
+    [0,1,1,1,1,1,0],
+    [1,1,1,1,1,1,1],
+    [0,0,0,1,0,0,0],
+    [0,0,0,1,0,0,0]
+    ]
 
-     # code:
+     # sudo code = break it into smaller problems
 
+     # use loop to print the current image
+
+     # add conditional logic to either print ' ' or '*'
+
+    # get the sequence printed out as is with a loop
+    i = 0
+    while i < len(picture):
+        print(picture[i])
+        i += 1
+
+    # add conditional logic to print ' ' for 0 and '*' for 1
+
+    i = 0
+    while i < len(picture):
+        print(picture[i])
+        i += 1
+    if i = 0:
+        print(' ')
+    elif i = 1:
+        print('*')
+
+
+    # alsways start out solving these exercises w/ sudo code
+
+    # 1. iterate over picture
+        # for loop
+        for image in picture:
+        # nested for loop
+            for pixel in image:
+        # add conditional logic
+                if (pixel == 1):
+                    print('*'. end='')      # if 1 -> print '* '
+                else:
+                    print(' ', end='')      # if 0 -> print ' '
+            print('')
+
+    # alsways start out solving these exercises w/ sudo code
+
+    # 1. iterate over picture
+    # for loop
+    for row in picture:
+        for pixel in row:
+            if (pixel == 1):
+            print('*', end='')          # if 1 -> print '* '
+            else:
+                print(' ', end='')      # if 0 -> print ' '
+        print('')                       # output: chirstmas tree designed by * and ' '
  ```
 
   #### Section Title
