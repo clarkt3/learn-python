@@ -598,7 +598,7 @@ print(counter)
         print('')                       # output: chirstmas tree designed by * and ' '
  ```
 
-#### Developer Fundementals IV
+#### Developer Fundementalsi: IV
 
 ```Python
 
@@ -614,7 +614,22 @@ print(counter)
 
 
     # code:
+    for row in picture:
+        for pixel in row:
+            if (pixel == 1):
+                print('*', end='')      # if 1 -> print '* '
+            else:
+                print(' ', end='')      # if 0 -> print ' '
+        print('')                   # output: chirstmas tree designed by * and ' '
 
+    # refactored code:
+    fill = '*'
+    empty = ' '
+    for row in picture:
+        for pized in row:
+            if pixell:
+                print(fill, end='')
+            else(empty, end='')
 ```
 
   #### Sectopm Title
