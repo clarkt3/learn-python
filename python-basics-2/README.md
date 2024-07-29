@@ -484,6 +484,11 @@ print(counter)
         break
 
     # add conditional logic
+    i = 0
+    while i < len(my_list):
+        print(my_list[i])
+        i += i
+        break
 
     while True:
         response = input('Say something: ')
@@ -498,12 +503,34 @@ print(counter)
     # gist: 
 
     # syntax:
+    while True:
+        print(i)
+        continue
 
     # code:
 
+    # for loop example of continue
+    my_list = [1,2,3]
+    for item in my_list:
+        continue
+        print(item)
+
+    # while loop example of continue
+    i = 0
+    while i < len(my_list):
+        i += 1
+        continue
+        print(my_list[i])
+
+
+    # pass: esentially does nothing - jus passes to the next line
+        # pass acts as a placeholder so your code runs w/o error
+        # come back and add the code you need to add and delete pass
+
+
 ```
 
- #### Section Title
+ #### Our 1st GUI
 
  ```Python
 
