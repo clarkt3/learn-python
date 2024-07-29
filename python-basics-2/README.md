@@ -598,7 +598,7 @@ print(counter)
         print('')                       # output: chirstmas tree designed by * and ' '
  ```
 
-#### Developer Fundementalsi: IV
+#### Developer Fundementals: IV
 
 ```Python
 
