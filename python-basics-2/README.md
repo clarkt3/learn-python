@@ -634,7 +634,7 @@ print(counter)
 
 ### Day 25 of 100 | 2024-07-30
 
-#### Section Title
+#### Exercise: Find Duplicates
 
 ```Python
 
@@ -643,6 +643,15 @@ print(counter)
      # syntax:
 
      # code:
+     some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+     # 1. set duplicates var
+     duplicates = []
+     # 2. loop over provided list
+     for value in some_list:
+        if some_list.count(value) > 1       # remember count allows us to count how many times an item in a list exists
+            if value not in  duplicates:
+                duplicates.append(value)
+    print(duplicates)                       # output: 'b', 'b', 'n', 'n'
 ```
 
 #### Section Title
