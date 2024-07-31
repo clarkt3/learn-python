@@ -682,8 +682,9 @@ function_name()
 
      # code:
 ```
+### Day 26 of 100 | 2024-07-31
 
-#### Section Title
+#### Arguements vs Parameters
 
 ```Python
 
