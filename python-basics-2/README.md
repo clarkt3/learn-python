@@ -688,11 +688,22 @@ function_name()
 
 ```Python
 
-     # gist:
+     # gist: 
+        # parameters are used when defining the function
+            # parameters: define
+        # arguements are used when we call--or invoke--the function
+            # arguements: call
 
-     # syntax:
+     # syntax, code
+     # parameters
+    def say_hello(name, emoji):
+         print(f"hello {name} {emoji}")  # make sure all text after f is w/i quotes (single or double; doesn't matter it just needs to be consistent and fast for you to type
 
-     # code:
+    # arguements
+    say_hello('Thomas', '🤣')
+    say_hello('Kyleigh', '😍')
+    say_hello('Benny', '😭')
+
 ```
 
 #### Section Title
