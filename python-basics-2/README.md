@@ -654,13 +654,31 @@ print(counter)
     print(duplicates)                       # output: 'b', 'b', 'n', 'n'
 ```
 
-#### Section Title
+#### Functions
 
 ```Python
 
-     # gist:
+     # gist: create your own functions so you don't have to repeat your self
+        # remember DRY
 
      # syntax:
+     def function_name():
+        print("function_name was printed")
+
+    # now you call the function and it runs the above code
+        function_name()
+
+
+    def function_name():
+        print("function_name")
+
+# now you call the function and it runs the above code
+function_name()
+
+    def say_hello():
+        print("hello there")
+
+    say_hello()
 
      # code:
 ```
