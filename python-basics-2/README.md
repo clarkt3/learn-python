@@ -706,13 +706,21 @@ function_name()
 
 ```
 
-#### Section Title
+#### Default Parameters and Keyword Arguements
 
 ```Python
 
-     # gist:
+     # gist: 
+        # positional parameters and keywords are clean
+        # you can use keyword arguements, but keep them in the same order the function dictates to keep things clean
 
-     # syntax:
+        # defualut parameters
+        def say_hello(name="Darth Maul", emoji="😈"):
+            pri nt(f'hello {name} {emoji}')
 
-     # code:
+        say_hello()
+
+        # keyword arguemen - keeps the code in order for future use
+        say_hello(name='Thomas', emoji='😇')
+
 ```
