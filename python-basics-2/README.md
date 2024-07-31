@@ -716,7 +716,7 @@ function_name()
 
         # defualut parameters
         def say_hello(name="Darth Maul", emoji="😈"):
-            pri nt(f'hello {name} {emoji}')
+            print(f'hello {name} {emoji}')
 
         say_hello()
 
@@ -726,14 +726,60 @@ function_name()
 ```
 
 
-#### Title
+#### return
 
 ```Python
 
-    # gist:
+    # gist: functions don't return/print anything unless you add a return/print keyword within the function
+        # functions either modify or return something within the program
+
+    # function rules:
+        # should do one thing well; should be easy to understand
+        # should return something
 
     # code:
+    # define function
+    def sum(num1, num2)
+        return num1 + num2
 
+    # assign to var
+    total = sum(10, 5)      # output: 15
+    print(sum(10, total))   # output: 25
+
+    # code: 
+    def sum(num1, num2):
+        return num1 + num2
+    print(sum(1, 5))
+
+    # conplicated, unclear function
+    def sum(num1, num2):
+  return num1 + num2
+print(sum(1, 5))
+
+# nested function (not clean)
+def sum(sumnum1, sumnum2):
+  def div_nums(divnum1, divnum2):
+    return sumnum1 + sumnum2  # return for unnested function
+  return divnum1 / divnum2 # return for nested function
+
+
+totalsum = sum(10, 20)
+totaldiv = div_nums(100, 10)
+print(totalsum)
+print(totaldiv)
+
+# so confused ^; don't do this because debugging is exhausting
+
+
+
+# nested function (not clean) - cleaner than above
+def sum(num1, num2):
+  def another_func(n1, n2):
+    return n1 + n2  # return for unnested function
+  return another_func(num1, num2) # return for nested function
+
+total = sum(10, 20)
+print(total)
 ```
 
 #### Title
