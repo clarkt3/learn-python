@@ -921,14 +921,26 @@ Problem Solving Steps
 ```
 
 
-#### Title
-
+#### Clean Code
 
 ```Python
 
-    # gist:
+    # code: 
+    def is_even(num):
+        if num % 2 == 0:
+            return True
+        elif num % 2 != 0
+            return False
 
-    # code:
+    print(is_even(50))  # return: True
+    print(is_even(21))  # return: False
+
+    # clean up  ^ function
+    def is_even(num):
+        return num % 2 == 0:
+
+    print(is_even(50))  # return: True -  same as above - less code
+    print(is_even(50))  # return: False - same as above - less code
 
 ```
 
