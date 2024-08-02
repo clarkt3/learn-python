@@ -1,7 +1,4 @@
 ### Day 21 of 100 | 2024-07-25
-
-
-
 #### Breaking The Flow
 
 ```Python
@@ -841,12 +838,14 @@ Problem Solving Steps
     5. add default age to function
 
 ```
+
 ### Day 28 of 100 | 2024-08-02
 
-#### Continuation of Tesla Example
+
+####
+Continuation of Tesla Problem Set
 
 ```Python
-
     # defin function
     def checkDriverAge():
     # add original code to function
@@ -858,8 +857,7 @@ Problem Solving Steps
         elif int(age) == 18:
 	        print("Congratulations on your first year of driving. Enjoy the ride!")= input("What is your age?: ")
 
-
-    # clean v.  of the Tesla example:
+    # clean v.  of the Tesla code:
     age = ("What is your age?: ")
 
     #Wrap the above code in a function called checkDriverAge()
@@ -871,17 +869,25 @@ Problem Solving Steps
             print("Powering On. Enjoy the ride!");
         elif int(age) == 18:
             print("Congratulations on your first year of driving. Enjoy the ride!")
+    
+    # function update w/ parameters/arguements
+    age = ("What is your age?: ")
+    # replace input() to make the checkDriverAge() function accept an argument of age
+    def checkDriverAge(age):
+        if int(age) < 18:
+            print("Sorry, you are too young to drive this car. Powering off")
+        elif int(age > 18):
+            print("Powering On. Enjoy the ride!");
+        elif int(age) == 18:
+            print("Congratulations on your first year of driving. Enjoy the ride!")
+    
+    # if driver age = checkDriverAge(92);
+    # output =  'Powering On. Enjoy the ride'
 
-        # replace input() to make the checkDriverAge() function accept an argument of age
-        # if driver age = checkDriverAge(92);
-        # it returns "Powering On. Enjoy the ride!"
-        # also make it so that the default age is set to 0 if no argument is given.
+    # also make it so that the default age is set to 0 if no argument is given.
 
 
 ```
-
-
-
 #### Title
 
 ```Python
@@ -922,5 +928,6 @@ Problem Solving Steps
     # code: DOES THIS SHOW IN GH?
 
 ```
+
 
 
