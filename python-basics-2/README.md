@@ -902,13 +902,21 @@ Problem Solving Steps
 ```
 
 
-#### Title
+#### Docstrings
 
 ```Python
 
-    # gist:
+    # gist: docstrings help you and other developers understand your functions/methods
 
-    # code:
+    # syntax:
+    def do_something_new(a):
+        '''
+        info: this tells others and you what the function does
+         this function tests and prints param a
+        '''
+        print(a)
+
+        print(test.__doc__)
 
 ```
 
