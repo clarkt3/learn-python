@@ -886,13 +886,18 @@ Problem Solving Steps
 
 
 ```
-#### Title
+#### Methods vs. Functions
 
 ```Python
 
-    # gist:
+    # Methods: are owned by the data type preceeding them
+    'Hello'.capitalize()    # str 'hello' owns the .capitalize method
 
-    # code:
+    # Functions()
+    def this_is_a_new_function():
+        pass
+
+    this_is_a_new_function()
 
 ```
 
@@ -907,7 +912,9 @@ Problem Solving Steps
 
 ```
 
+
 #### Title
+
 
 ```Python
 
@@ -916,5 +923,4 @@ Problem Solving Steps
     # code:
 
 ```
-
 
