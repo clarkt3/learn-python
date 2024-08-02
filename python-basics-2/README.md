@@ -812,7 +812,28 @@ elif int(age) == 18:
 
 Problem Solving Steps
 
-1. Psudo Code
+    1. Psudo Code
+
+        # define a function called checkDriverAge()
+
+        # add the code within the function
+
+        # change the input() to accept arguements of age
+
+        # check by typing an age above 18 to make sure the function works correctly
+
+        # ensure the return == Pwering On. Enjoy the ride!
+
+        # make the default age=0 if no imput is given
+
+
+    2. create the function
+
+    3. add the code into the function
+
+    4. change the function to accept arguments
+
+    5. add default age to function
 
 ```
 
