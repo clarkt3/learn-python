@@ -842,8 +842,8 @@ Problem Solving Steps
 ### Day 28 of 100 | 2024-08-02
 
 
-####
-Continuation of Tesla Problem Set
+
+#### Continuation of Tesla Problem Set
 
 ```Python
     # defin function
@@ -928,6 +928,7 @@ Continuation of Tesla Problem Set
     # code: DOES THIS SHOW IN GH?
 
 ```
+
 
 
 
