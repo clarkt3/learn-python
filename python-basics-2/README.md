@@ -1,6 +1,7 @@
 ### Day 21 of 100 | 2024-07-25
 
 
+
 #### Breaking The Flow
 
 ```Python
@@ -844,21 +845,41 @@ Problem Solving Steps
 
 #### Continuation of Tesla Example
 
-
 ```Python
 
-    # define the function
+    # defin function
     def checkDriverAge():
-    # add from the original Tesla Exervis section
+    # add original code to function
     age = input("What is your age?: ")
-        if int(age) < 18:
-	        print("Sorry, you are too young to drive this car. Powering off")
+        if int(age) < 18:i
+            print("Sorry, you are too young to drive this car. Powering off")
         elif int(age) > 18:
 	        print("Powering On. Enjoy the ride!");
         elif int(age) == 18:
-	        print("Congratulations on your first year of driving. Enjoy the ride!")
+	        print("Congratulations on your first year of driving. Enjoy the ride!")= input("What is your age?: ")
+
+
+    # clean v.  of the Tesla example:
+    age = ("What is your age?: ")
+
+    #Wrap the above code in a function called checkDriverAge()
+    # function should work this way
+    def checkDriverAge():
+        if int(age)  < 18:
+            print("Sorry, you are too young to drive this car. Powering off")
+        elif int(age) > 18:
+            print("Powering On. Enjoy the ride!");
+        elif int(age) == 18:
+            print("Congratulations on your first year of driving. Enjoy the ride!")
+
+        # replace input() to make the checkDriverAge() function accept an argument of age
+        # if driver age = checkDriverAge(92);
+        # it returns "Powering On. Enjoy the ride!"
+        # also make it so that the default age is set to 0 if no argument is given.
+
 
 ```
+
 
 
 #### Title
