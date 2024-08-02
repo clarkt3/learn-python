@@ -841,8 +841,6 @@ Problem Solving Steps
 
 ### Day 28 of 100 | 2024-08-02
 
-
-
 #### Continuation of Tesla Problem Set
 
 ```Python
@@ -918,17 +916,5 @@ Problem Solving Steps
     # code:
 
 ```
-
-#### Title
-
-```Python
-
-    # gist:
-
-    # code: DOES THIS SHOW IN GH?
-
-```
-
-
 
 
