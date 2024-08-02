@@ -1,5 +1,6 @@
 ### Day 21 of 100 | 2024-07-25
 
+
 #### Breaking The Flow
 
 ```Python
@@ -684,6 +685,7 @@ function_name()
 ```
 ### Day 26 of 100 | 2024-07-31
 
+
 #### Arguements vs Parameters
 
 ```Python
@@ -784,7 +786,7 @@ total = sum(10, 20)
 print(total)
 ```
 
-Day 27  of 100 | 2024-08-01
+### Day 27  of 100 | 2024-08-01
 
 #### Tesla Exercise
 
@@ -838,6 +840,11 @@ Problem Solving Steps
     5. add default age to function
 
 ```
+### Day 28 of 100 | 2024-08-02
+
+#### Continuation of Tesla Example
+
+
 
 #### Title
 
@@ -848,6 +855,7 @@ Problem Solving Steps
     # code:
 
 ```
+
 
 #### Title
 
