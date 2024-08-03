@@ -944,10 +944,20 @@ Problem Solving Steps
 ```
 ### Day 29 of 100 | 2024-08-03
 
-#### *args and **kwargs
+#### # *args and # '''**kwargs'''
 
 ```Python
 
+    def superfunc(*args):   # *args enables as many args to be passed to this function
+        return sum(agrs)
+
+    super_func(1, 2, 3, 4, 5, 6) # will now accept as many args as passed b/c *args keyword was added to the function def
+
+    # clean up 
+    def superfunc(*args):
+        print(*args)        # output: all args: 1, 2, 3, 4, 5
+        return sum(args)
+    superfunc(1, 2, 3, 4, 5, 6)
 
 
 ```
