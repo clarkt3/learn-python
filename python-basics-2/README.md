@@ -976,9 +976,9 @@ Problem Solving Steps
             total += items
     return sum(args) + total
 
-    # funct w/o replit.com indentions, corrections
-print(superfunc(1, 2, 3, 4, 5, num1=5, num2=10))
+    print(superfunc(1, 2, 3, 4, 5, num1=5, num2=10))
 
+    # funct w/o replit.com indentions, corrections
     def superfunc(*args, **kwargs): # *args and **kwargs can be called anything (i.e., *hello **yoyo) but *args, **kwargs  are convention
         total = 0
         for items in kwargs.value():
@@ -987,4 +987,10 @@ print(superfunc(1, 2, 3, 4, 5, num1=5, num2=10))
 
     print(superfunc(1, 2, 3, 4, 5, num1=5, num2=6))
 
+    # ordering (*args, **kwargs)
+
+    # rule: params, *args, default parameters, **kwargs
+
+    def superfunc(name, *args, i='hi', **kwargs)    # this is convention, for ordering but this is super confusing
+    def superfunc(name, *args)                      # most functions olny have 1 maybe 2 of these
 ```
