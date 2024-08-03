@@ -901,7 +901,6 @@ Problem Solving Steps
 
 ```
 
-
 #### Docstrings
 
 ```Python
@@ -943,4 +942,12 @@ Problem Solving Steps
     print(is_even(50))  # return: False - same as above - less code
 
 ```
+### Day 29 of 100 | 2024-08-03
 
+#### *args and **kwargs
+
+```Python
+
+
+
+```
