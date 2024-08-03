@@ -956,6 +956,7 @@ Problem Solving Steps
     # clean up 
     def superfunc(*args):
         print(*args)        # output: all args: 1, 2, 3, 4, 5
+        print(args)         # output: (1, 2, 3, 4, 5)
         return sum(args)
     superfunc(1, 2, 3, 4, 5, 6)
 
