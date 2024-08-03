@@ -948,6 +948,7 @@ Problem Solving Steps
 
 ```Python
 
+    # *args
     def superfunc(*args):   # *args enables as many args to be passed to this function
         return sum(agrs)
 
@@ -955,7 +956,7 @@ Problem Solving Steps
 
     # clean up 
     def superfunc(*args):
-        print(*args)        # output: all args: 1, 2, 3, 4, 5
+        print(*args)        # outpdut: all args: 1, 2, 3, 4, 5
         print(args)         # output: (1, 2, 3, 4, 5)
         return sum(args)
     superfunc(1, 2, 3, 4, 5, 6)
@@ -966,4 +967,24 @@ Problem Solving Steps
         return sum(args)
 
     print(superfunc(1, 2, 3, 4, 5))
+
+    # funct from replit.com that runs currectly 
+    # **kwargs
+    def superfunc(*args, **kwargs): # *args and **kwargs can be called anything (i.e., *hello **yoyo) but *args, **kwargs  are convention
+        total = 0
+        for items in kwargs.values():
+            total += items
+    return sum(args) + total
+
+    # funct w/o replit.com indentions, corrections
+print(superfunc(1, 2, 3, 4, 5, num1=5, num2=10))
+
+    def superfunc(*args, **kwargs): # *args and **kwargs can be called anything (i.e., *hello **yoyo) but *args, **kwargs  are convention
+        total = 0
+        for items in kwargs.value():
+            total += items
+        return sum(args) + total
+
+    print(superfunc(1, 2, 3, 4, 5, num1=5, num2=6))
+
 ```
