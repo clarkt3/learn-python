@@ -960,5 +960,10 @@ Problem Solving Steps
         return sum(args)
     superfunc(1, 2, 3, 4, 5, 6)
 
+    # print answer
+    def superfunc(*args):
+        print(args)
+        return sum(args)
 
+    print(superfunc(1, 2, 3, 4, 5))
 ```
