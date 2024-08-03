@@ -994,3 +994,19 @@ Problem Solving Steps
     def superfunc(name, *args, i='hi', **kwargs)    # this is convention, for ordering but this is super confusing
     def superfunc(name, *args)                      # most functions olny have 1 maybe 2 of these
 ```
+
+#### Exercise: Functions
+
+```Python
+
+    # starter code:
+    def highest_even(li):
+        pass
+
+    print(highest_even([10, 2, 3, 4, 8, 11]))
+
+    # 
+
+    # the answer should be printed as 10
+
+```
