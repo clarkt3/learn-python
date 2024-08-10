@@ -1043,4 +1043,47 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```
 
-#### 
+## Short Break Taken to focus on Prompt Engineering
+
+## Day 30 of mr| Sat, Aug 10, 2024
+
+#### Walrus Operator
+
+```Python
+    
+    # := : assigns values to variables as part of a larger expression
+
+    # walrus is a new feature
+
+    # you can see new features in what's new in python
+        # language is constantly evolving
+    
+    # walrus is an assignment operator
+
+    # 
+
+    a = 'helloooooooooooooo'
+
+    if (len(a)> 10):
+    print(f"too long {len(a)} elements")
+
+    # now with the walrus operator
+
+    # assign n w/e the value of a is with walrus operator
+
+    a = 'helloooooooooooo'
+
+    if ((n := len(a)) > 10):
+        print(f"Too long {n} elements")
+    
+    # one more exercise to to make sure you grasp the concept
+    a = 'hellooooooooooooo'
+    while ((n := len(a)) > 1):
+        print(n)
+        a = a [:-1] # this is the minus 1 short form a [:-1]
+
+        print(a)    # h will be the only character left and will print after 2
+
+
+
+```
