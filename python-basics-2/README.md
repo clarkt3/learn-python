@@ -1004,9 +1004,43 @@ Problem Solving Steps
         pass
 
     print(highest_even([10, 2, 3, 4, 8, 11]))
-
-    # 
-
+ 
     # the answer should be printed as 10
 
+    # solution:
+
+    def highest_even(li):
+        evens = []
+        for item in li:
+            if item % 2 == 0:
+                evens.append(item)
+        return max(evens)
+    print(highest_even([1, 2,3 ,4, 8, 11]))
+
+
+    # code runs in replit env
+
+    def highest_even(li):
+     evens = []
+     for item in li:
+         if item % 2 == 0:
+             evens.append(item)
+     return max(evens) # all the way to this line folds up into the function
+print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the funct.
+
+
+   # code runs in replit env
+
+    def highest_even(li):
+    evens = []
+        for item in li:
+            if item % 2 == 0:
+                evens.append(item)
+      return max(evens) # all the way to this line folds up into the function
+ print(highest_even([2, 10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the funct.
+    
+    # the response should be 2 b/c the loop stops at 2 since it's an even number
+
 ```
+
+#### 
