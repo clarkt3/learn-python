@@ -1090,6 +1090,29 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```Python
 
-    # 
+    # Sope simply means: what variables do I have access to?
 
+    # global scope: a var at the top of the doc that the whole doc has access to
+
+    # local Scope
+
+    def some_func():
+        total = 100
+
+    primt(total) # output: total is not defined b/c you're tying to access it outside of the function
+
+    # if a var is not inside of a func, it's part of the global scope; inside of the func, it's local
+
+    # example: 
+
+    if True:
+        x = 10
+
+    def some_func():
+        total = 100
+
+    print(x) # output: 10 b/c x is part of the glocal scope
+
+    # scope is simply who has access to who/what
 ```
+
