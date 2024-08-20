@@ -1115,4 +1115,15 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # scope is simply who has access to who/what
 ```
+#### Scope Rules
 
+```Python
+
+
+```
+
+## Day X of 100 | Day, Mon XX, 2024
+
+### Section Title
+
+#### Subsection Title:
