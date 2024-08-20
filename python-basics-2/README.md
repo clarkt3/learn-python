@@ -1119,6 +1119,40 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```Python
 
+    # who has access to who in this code?
+
+    a = 1
+
+    def confusion():
+        a = 5
+        return a
+
+    print(a) # output: 1
+    print(confusion())  # output: 5
+
+
+    # Evaluation 2 - 
+
+    # Scope - what variables do I have access to?
+
+    a = 1
+
+    def parent():
+        a = 10
+        def confusion():
+            return a
+        return confusion()
+
+    print(parent()) # outputs: 10 
+    print(a) # outputs: 1 
+
+    
+    # How the python interperter evaluates scope:
+    
+    # Evaluation 1 - start w/ local
+    # Evaluation 2 - Parent local?
+    # Evaluation 3 - Global
+    # Evaluation 4 - built-in python functions
 
 ```
 
