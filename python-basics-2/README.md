@@ -1159,8 +1159,104 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```Python
 
-    
+    # what about parameters?
 
+    a = 10
+    def confusion():
+        print(b)
+        a = 90
+
+    confusion(300) # outputs: 300
+
+    # parameters are considered local vars
+    
+        # able to use it inside of the function but we not ouside of those functions
+
+    # create counter to further understanding
+
+    total = 0 
+
+    def count():
+        total += 1
+        return total
+
+    print(count())  # outputs: local variable 'total' referenced before assignment
+
+    # count doesn't know about total yet
+
+    # but we need to reference total from the global scope
+
+    # understanding local/global scope
+    
+    total = 0
+
+    def count():
+        total = 0
+        total += 1
+        return total
+
+    count()
+    count()
+    print(count())  # outputs: 1 b/c the function was reset and the total is set back to 0
+
+
+    # global keywork:
+
+    total = 0
+
+    def count():
+        global total # this global keyword gives you access to total in the global space
+        total += 1
+        return total
+
+    count()
+    count()
+    print(count())
+
+    # create a parameter and pass in the parameter/argument
+     total = 0
+
+     def count():
+         global total # this global keyword gives you access to total in the global space
+         total += 1
+         return total
+
+     print(count(count(count)count()))) # output: 3 b/c you're calling count 3x
+
+```
+#### nonlocal Keyword
+
+```Python
+
+    # nonlocal is a new Python3 Keyword
+
+    # Example Code:
+
+    def outer():
+        x = "local"
+        def inner():
+            nonlocal x
+            x = "nonlocal"
+            print("inner:", x)
+
+    inner()                 # output: inner: nonlocal
+    print("outer:", x)      # output: outer: nonlocal
+    
+    # What it does
+
+    # Evaluation 1: start w/ local (scope)?
+    # Evaluation 2: Parent local (scope)?
+    # Evaluation 3: Global
+
+    # KEY POINT: this makes code more complicated than it needs to be
+
+        # aim to avoid using things like local and nonlocal vars; make code predictable
+
+        # only use local and nonlocal in specail cases: i.e. closures 
+        
+        # just understand that these local and nonlocal keywords are there for a reason
+
+    # Goal: Keep Code Clean; Make Code Predictable
 ```
 ## Day X of 100 | Day, Mon XX, 2024
 
