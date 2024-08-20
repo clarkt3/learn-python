@@ -1155,7 +1155,13 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # Evaluation 4 - built-in python functions
 
 ```
+#### global Keywords
 
+```Python
+
+    
+
+```
 ## Day X of 100 | Day, Mon XX, 2024
 
 ### Section Title
