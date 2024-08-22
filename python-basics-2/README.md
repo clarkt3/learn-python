@@ -1323,7 +1323,18 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```Python
 
-    # Python Install
+    # List of Tools
+
+    '''
+    - Terminal
+    - Code Editors
+    - IDEs (PC or Spyder)
+    '''
+
+    # code editors are lightweight
+    # IDEs are bigger and heavier but have auto compleition, code snipits, etc.
+
+    # Notebooks - Jupyter
 
 ```
 ## Day 33 of 100 | Thu, Aug 22, 2024
