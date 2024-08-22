@@ -1268,7 +1268,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # machine don't have infinate memory, drive space
 
-    # 
+    # the python garbage collector works to remove unused vars and clean up memory space 
 
 ```
 ## Day X of 100 | Day, Mon XX, 2024
