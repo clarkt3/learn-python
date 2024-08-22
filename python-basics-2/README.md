@@ -1264,7 +1264,11 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```Python
 
-    
+    # why not just have all global vars?
+
+    # machine don't have infinate memory, drive space
+
+    # 
 
 ```
 ## Day X of 100 | Day, Mon XX, 2024
