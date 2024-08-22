@@ -1084,7 +1084,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
         print(a)    # h will be the only character left and will print after 2
 ```
-## Day 31 of 100 | Mon, Aug 20, 2024 (started Prompt Engineering Course and focused was moved there)
+## Day 31 of 100 | Tue, Aug 20, 2024 (started Prompt Engineering Course and focused was moved there)
 
 #### Scope
 
@@ -1258,6 +1258,8 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # Goal: Keep Code Clean; Make Code Predictable
 ```
+## Day 32 of 100 | Wed, Aug 21, 2024
+
 #### Why Do We Need Scope?
 
 ```Python
