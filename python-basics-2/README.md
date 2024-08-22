@@ -1337,7 +1337,45 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # Notebooks - Jupyter
 
 ```
+#### Optional: terminal Commands
 
+```Python
+
+    # ls = list
+    # pwd = print working dir
+    # cd .. goes up one dir
+    # clear clears term
+    # cd / takes you to root dir
+    # cd ~ user dir
+    # open . open current dir
+    # mkdir webapp
+    # cd webapp # go into the dir
+    # touch index.html
+    # open index.html
+    # open -a "VS Code"
+    # open -a "VS Code" index.html
+    # open index.html
+
+    # you can do things much faster
+
+    # mv index.html about.html = changes the name of a file to the new name 
+
+    # up arrow will bring up the history 
+
+    # rm about.html
+
+    # rm -r[f] to remove dirs
+
+    # but you alread knew all of this
+
+    # in mac terminal you can do this and it will speak to you
+
+        # say this is soooo cool
+        # screen reader voice reads it back to you
+
+    # always create files and folder using the cli (never point and click)
+
+```
 ## Day 33 of 100 | Thu, Aug 22, 2024
 ## Day X of 100 | Day, Mon XX, 2024
 ### Section Title
