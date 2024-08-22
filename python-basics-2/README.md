@@ -1271,6 +1271,9 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # the python garbage collector works to remove unused vars and clean up memory space 
 
 ```
+## Day 33 of 100 | Thu, Aug 22, 2024
+
+
 ## Day X of 100 | Day, Mon XX, 2024
 
 ### Section Title
