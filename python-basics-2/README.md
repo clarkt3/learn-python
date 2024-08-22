@@ -1337,7 +1337,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # Notebooks - Jupyter
 
 ```
-#### Optional: terminal Commands
+#### Optional: Terminal Commands
 
 ```Python
 
