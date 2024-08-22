@@ -1271,9 +1271,48 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # the python garbage collector works to remove unused vars and clean up memory space 
 
 ```
+#### Python Exam: Testing Your Understanding
+
+```Python
+
+    # Syntax for defining a TUPLE?
+
+    ("apple", "banana", "cherry")
+
+    # Syntax for defining a SET?
+
+    {"apple", "banana", "cherry"}
+
+    # Incorrect Var Naming
+
+    my-var # cannot use a dash
+
+    # Two ways to define a var w/ a numerica value
+
+    x = 5
+    x = int(5)
+
+    # Two ways to defin a var w/ floating point value
+
+    x = 2.8
+    x = float(2.8)
+
+    # Syntax for defining a DICRIONARY?
+
+    {"name": "apple", "color": "green"}
+
+    # Which collection is ordere, changable, and allows duplicate members?
+
+    LIST
+
+    # Which collection does not allow duplicate members?
+
+    SET
+
+```
 ## Day 33 of 100 | Thu, Aug 22, 2024
 
-
+####
 ## Day X of 100 | Day, Mon XX, 2024
 
 ### Section Title
