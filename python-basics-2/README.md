@@ -1438,7 +1438,8 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     3. create hello.py (new tab -> command + s -> name it hello.py)
     4. install pylint
     5. Run hello.py by using the vs code terminal command - python3 hello.py -> Hello World.
-    6. 
+    6. Use the PROBLEMS window to solve lint issues
+    7. Enable Dracula Official Theme
     ''' 
 ```
 ## Day X of 100 | Day, Mon XX, 2024
