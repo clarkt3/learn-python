@@ -1377,6 +1377,47 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```
 ## Day 33 of 100 | Thu, Aug 22, 2024
+
+#### iTerm Setup
+
+##### My Terminal Setup
+```Python
+
+    # customize bash
+
+    # nano ~/.bash_profile
+
+    #  then add one of these useful bash prompts: https://www.maketecheasier.com/8-useful-and-interesting-bash-prompts/
+
+    # for ZSH customization visit this site: https://ohmyz.sh/
+
+    # homebrew installs anything from the web (boom; roasted.)
+
+    # brew install fish
+
+    # iTerm (specific to mac)
+```
+##### My Terminal Setup 2
+
+```Python
+
+    # customize terminal: https://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/
+
+    # iTerm2: https://iterm2.com/index.html
+
+    # customize iTerm2: https://sourabhbajaj.com/mac-setup/iTerm/README.html
+
+    # Homebrew: https://brew.sh/
+
+    # Two Options for Different Shells
+    '''
+    1. https://ohmyz.sh/
+    2. https://fishshell.com/
+    '''
+
+    # 8 Interesting Bash Prompts: https://www.maketecheasier.com/8-useful-and-interesting-bash-prompts/
+```
+
 ## Day X of 100 | Day, Mon XX, 2024
 ### Section Title
 #### Subsection Title:
