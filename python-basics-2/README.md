@@ -1428,6 +1428,19 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # you can use the terminal to run python3 code - easy alread knew that one!
 
 ```
+#### Visual Studio Code (Setup)
+
+```Python
+
+    '''
+    1. download vs code
+    2. go through setup guide
+    3. create hello.py (new tab -> command + s -> name it hello.py)
+    4. install pylint
+    5. Run hello.py by using the vs code terminal command - python3 hello.py -> Hello World.
+    6. 
+    ''' 
+```
 ## Day X of 100 | Day, Mon XX, 2024
 ### Section Title
 #### Subsection Title:
