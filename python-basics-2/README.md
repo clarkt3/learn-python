@@ -1418,6 +1418,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # 8 Interesting Bash Prompts: https://www.maketecheasier.com/8-useful-and-interesting-bash-prompts/
 ```
 ## Day 34 of 100 | Fri, Aug 23, 2024
+
 #### Using the Command Line/Terminal
 
 ```Python
