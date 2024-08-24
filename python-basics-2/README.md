@@ -1448,8 +1448,15 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```Python
 
-    
+    # most used IDE (at time of filming) in the Python community   
 
+    # only focused on Python 
+
+    # download the community version of PyCharm
+
+    # just use VS code of VIM; don't worry about PyCharm
+
+    # even gives you english spell check 
 ```
 ## Day X of 100 | Day, Mon XX, 2024
 ### Section Title
