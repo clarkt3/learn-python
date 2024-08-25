@@ -1459,6 +1459,8 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # even gives you english spell checfk 
 ```
+### Day 36 of 100 | Sun, Aug 25, 2024
+
 #### Code Formatting - PEP 8
 
 ```Python
@@ -1485,6 +1487,15 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 ```Python
 
     # Jupyter Notesbooks are for ML and Datascience, whis is perfect for me!!
+
+```
+### Day 37 of 100 | Mon, Aug 26, 2024
+#### Jupyter Notebooks
+
+```Python
+
+    # 
+
 
 ```
 ## Section Title
