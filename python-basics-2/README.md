@@ -1480,6 +1480,13 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # Turned on AutoSave, and Format on Save for VS Code
 ```
+#### Quick Note: Jupyter Notebooks
+
+```Python
+
+    # Jupyter Notesbooks are for ML and Datascience, whis is perfect for me!!
+
+```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
