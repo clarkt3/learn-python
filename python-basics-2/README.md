@@ -1461,10 +1461,24 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 ```
 #### Code Formatting - PEP 8
 
-```python
+```Python
 
+    # PEP 8 – Style Guide for Python Code - https://peps.python.org/pep-0008/
+        
+        # PEP stands for Python Enhancement Proposals
+        # PEP is the most popular style guid for Python
     
+    # Code Editors / IDEs take care of this with Fomatting auto pep 8
 
+    # install autopep8 to vs code
+
+    # learn how to install pep8 in vim using ChatGPT
+
+    # setup pep8 so it formats automatically when you click save in vim and VS Code
+
+    # PyCharm alread has pep8 formatting built into the IDE
+
+    # Turned on AutoSave, and Format on Save for VS Code
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
