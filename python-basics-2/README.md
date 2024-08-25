@@ -1441,8 +1441,9 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     6. Use the PROBLEMS window to solve lint issues
     7. Enable Dracula Official Theme
     ''' 
-    ```
-## Day 35 of 100 | Sat, Aug 24, 2024
+ ```
+### Day 35 of 100 | Sat, Aug 24, 2024
+
 
 #### PyCharm
 
@@ -1456,7 +1457,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # just use VS code of VIM; don't worry about PyCharm
 
-    # even gives you english spell check 
+    # even gives you english spell checfk 
 ```
 ## Day X of 100 | Day, Mon XX, 2024
 ### Section Title
