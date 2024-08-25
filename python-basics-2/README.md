@@ -1459,6 +1459,6 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # even gives you english spell checfk 
 ```
-## Day X of 100 | Day, Mon XX, 2024
-### Section Title
+## Section Title
+### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
