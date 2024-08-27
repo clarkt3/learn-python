@@ -1576,8 +1576,46 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```Python
 
-    # 
+    # Why it's important
 
+        # everything in Python is an object b/c everything is built by the Class Keyword
+
+    # We can use different methods to perform actions on any object
+
+    # What's an object?
+    
+        # objects have methods and atributes that can be accessed by the .method
+
+    # We can create our own custom Objects
+
+    # Use Case:
+
+    '''
+    we need to program an amazon deliver drone 
+
+    the problem is when code gets bigger and more complex, it becomes multiple files
+    with millions of lines of code
+    '''
+
+    # How can OOP be used to make code more managable?
+
+    '''
+    OOP is a paradigm (e.g., it's a way for use to think about and structure our code)
+
+    We can break up a program that controls a delivery drone, we can break it into 
+    small pieces (little objects) that represent the real world
+    '''
+    # One Developer develops the claws that hold the package
+
+    # Another Dev handles  the signling so that we're able to send signals from AMZ to Drone
+
+    # break up functionality into small peices that represent the real world
+
+    # If you need to make a small tank (in addition to the drone), you can reuse Objects
+
+    # KEY TAKE AWAY: OOP is a Paradigm - a way to think about our code
+
+        # a way to structure our code and keep things organized and split them into dev groups
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
