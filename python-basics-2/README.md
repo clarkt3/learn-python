@@ -1547,7 +1547,15 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # I choose VIM and I'm liking it a lot now; light weight, fast, clean, highly customizable
 
 ```
+#### <> Implement a New Life System
 
+```Python
+
+    # Design your life to become happy - KEEP LEARNING EVERY DAY!!
+
+    # Think in Systems - Think like an Engineer an shape your entire life
+
+```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
