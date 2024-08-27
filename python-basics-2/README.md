@@ -1561,7 +1561,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ## Advanced Python: Object Oriented Programming
 
-#### Note on upcoming  Sections
+#### Note on Upcoming Sections
 
 ```Python
 
