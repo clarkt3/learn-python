@@ -1490,11 +1490,20 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```
 ### Day 37 of 100 | Mon, Aug 26, 2024
+
 #### Jupyter Notebooks
 
 ```Python
 
-    # 
+    # Tool for DS and ML
+
+    # Anaconda.com - the distribution website
+
+    # Anaconda Mac Install Guide: 
+
+    '''
+    https://problemsolvingwithpython.com/01-Orientation/01.04-Installing-Anaconda-on-MacOS/
+    '''
 
 
 ```
