@@ -1557,6 +1557,19 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     
     # Make sure you can commit to learning; if you can't don't take this step
 ```
+### Day 38 of 100 | Tue, Aug 27, 2024
+
+## Advanced Python: Object Oriented Programming
+
+#### Note on upcoming  Sections
+
+```Python
+
+    # instructor will still use Replit but you need to use your dev env since you set it up
+
+    # when we start building projects, the instructor will start using Sublime Text, Jupyter
+
+```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
