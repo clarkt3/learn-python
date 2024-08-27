@@ -1531,6 +1531,21 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # Install it Manually
 
 ```
+
+#### Section Review
+
+```Python
+
+    # Remember: what you want and what you like will change throughout your dev life
+
+        # you can change things as you evolve as a developer
+
+    # Jupyter is good for immediate input/output
+
+    # There's no BEST tool; it's what you like/need in your development career
+
+```
+
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
