@@ -1543,6 +1543,8 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # Jupyter is good for immediate input/output
 
     # There's no BEST tool; it's what you like/need in your development career
+    
+    # I choose VIM and I'm liking it a lot now; light weight, fast, clean, highly customizable
 
 ```
 
