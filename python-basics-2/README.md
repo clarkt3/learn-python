@@ -1512,6 +1512,24 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # PyCharm is now bundeled w/ Anaconda
 
+    # Waiting on Install
+
+        # Once installed click Jupyter Notebook
+
+        # Local Host is opened once Jupyter Notebook is installed
+
+    # now you can use Anaconda in Chrome (any Browser really)
+
+    # You can run Jupyter Notebooks offline even though they're in the browser
+        
+        # no WiFi Required
+
+    # you get immediate code execution, which is great for Data Visulization, ML, Data Science
+
+    # Brew Install Anaconda didn't execute b/c I'm on a pre-release version of MacOS
+
+    # Install it Manually
+
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
