@@ -1570,6 +1570,8 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # when we start building projects, the instructor will start using Sublime Text, Jupyter
 
 ```
+## Day 38 of 100 | Tue, Aug 27, 2024  
+
 #### What Is OOP?
 
 ```Python
