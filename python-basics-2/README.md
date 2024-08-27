@@ -1504,7 +1504,13 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     '''
     https://problemsolvingwithpython.com/01-Orientation/01.04-Installing-Anaconda-on-MacOS/
     '''
+    # Account Created w/ GH authentication used for singin
 
+    # Most Popular Python/R Data Science Platform
+
+    # Installed Anaconda: Brew Install --cask anaconda
+
+    # PyCharm is now bundeled w/ Anaconda
 
 ```
 ## Section Title
