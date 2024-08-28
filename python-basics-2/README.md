@@ -1650,7 +1650,8 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     #OOP
 
     class BigObject: #Class
-        pass
+        #code
+       pass
 
     obj1 - BigOjects() #instanciate
     obj2 - BigOjects() #instanciate
