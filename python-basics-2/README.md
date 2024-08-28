@@ -1646,6 +1646,15 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # Class = blueprint for following objects
 
     # Instantiating a class means to create a new Obj
+
+    #OOP
+
+    class BigObject: #Class
+        pass
+
+    obj1 - BigOjects() #instanciate
+    obj2 - BigOjects() #instanciate
+    obj3 - BigOjects() #instanciate
 ```
 
 
