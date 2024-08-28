@@ -1622,10 +1622,27 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 ```Python
 
     # History of Programming Languages: 
-    '''https://en.wikipedia.org/wiki
-       History_of_programming_languages 
-'''
+    '''
+    https://en.wikipedia.org/wiki/History_of_programming_languages
+    '''
+    # Before OOP it was Procedural Code
+
+        # do this do that
+
+    # OOP models real-world objects
+
+    # Think in terms of models; organize things
+
+    # CREATE NEW CLASS:
+
+    class BigObject:
+        pass
+
+    print(type(obj1)) # outputs: '__main__.BigObject'
+    # must use SnakeCase; not like python vars
+
 ```
+
 
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
