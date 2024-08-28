@@ -1641,6 +1641,11 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     print(type(obj1)) # outputs: '__main__.BigObject'
     # must use SnakeCase; not like python vars
 
+    # Class v. Obj
+
+    # Class = blueprint for following objects
+
+    # Instantiating a class means to create a new Obj
 ```
 
 
