@@ -1661,7 +1661,39 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
 ```Python
 
-    # 
+    # code our own class for a wizard game
+
+    # think about it in OOP
+
+    # we will need players
+
+    # class for players
+
+    class PayerCharacter: # do not add s here
+        def __init__(self, name):
+            self.name = name
+
+        def run(self):
+            print('run')
+
+    # at this point we don't know what self or init is
+
+    player1 = PlayerCharacter() # instantiate player
+
+
+    print(player1) 
+
+    # output error:
+
+    '''
+    Traceback (most recent call last):
+    File "main.py", line 9, in <module>
+        player1 = PlayerCharacter()
+    TypeError: __init__() missing 1 required
+    positional arguement: 'name'
+    '''
+
+    
 
 ```
 ## Section Title
