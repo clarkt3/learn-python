@@ -1702,7 +1702,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # outputs Cindy
 
-    class PalyerCharacter:
+    class PlayerCharacter:
         def __init__(self, name):
             self.name = name
 
@@ -1712,6 +1712,21 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     player1 = PlayerCharacter('Cindy')
 
     print(player1.name) # prints Cindy
+
+    # instantiate second player
+
+    class PlayerCharacter:
+        def __init__(self, name):
+            self.name = name
+
+        def run(self):
+            print('run')
+
+    player1 = PlayerCharacter('Cindy')
+    player2 = PlayerCharacter('Tom')
+
+    print(player1.name) # outputs: Cindy
+    print(player2.name) # outputs: Tom
     
 ```
 ## Section Title
