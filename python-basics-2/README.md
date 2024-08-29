@@ -1727,6 +1727,17 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     print(player1.name) # outputs: Cindy
     print(player2.name) # outputs: Tom
+
+    # KEY POINT: 
+
+    '''
+    Write code once that can be reused 
+    multiple times; REMEMBER DRY (Do not Repeat
+    Yourself)
+
+    Write dynamic code that changes based on 
+    what you pass to it
+    '''
     
 ```
 ## Section Title
