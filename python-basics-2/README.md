@@ -1753,6 +1753,13 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     print(player1.age)  # outputs: 44
     print(player2.age)  # outputs: 21
+
+    # use .notation to access properties
+
+    player1.age, 
+    player2.age, 
+    player1.name,
+    playe2.name
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
