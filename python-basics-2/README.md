@@ -1760,6 +1760,11 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     player2.age, 
     player1.name,
     playe2.name
+
+    # two players in different locations in memory
+
+    print(player1)  # object at 0x134lk
+    print(player2)  # object at 0x134lx
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
