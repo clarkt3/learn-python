@@ -1738,7 +1738,21 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     Write dynamic code that changes based on 
     what you pass to it
     '''
-    
+    # Add Age Attribute
+
+    class PlayerCharacter:
+        def __init__(self, name, age):
+            self.name = name # attributes
+            self.age = age
+
+        def run(self):
+            print('run')
+
+    player1 = PlayerCharacter('Cindy', 44)
+    player2 PalyerCharacter('Tom', 21)
+
+    print(player1.age)  # outputs: 44
+    print(player2.age)  # outputs: 21
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
