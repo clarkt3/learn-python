@@ -1692,9 +1692,27 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     TypeError: __init__() missing 1 required
     positional arguement: 'name'
     '''
+    player1 = PlayerCharacter('Cindy') # removes error
 
+    __init__ # this is called a dunder/magic method
+
+    # What is the self Keyword?
+
+    # Self defines self and refers to the PlayerChar
+
+    # outputs Cindy
+
+    class PalyerCharacter:
+        def __init__(self, name):
+            self.name = name
+
+        def run(self):
+            print('run')
+
+    player1 = PlayerCharacter('Cindy')
+
+    print(player1.name) # prints Cindy
     
-
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
