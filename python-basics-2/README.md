@@ -1824,6 +1824,27 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     to change for any of the objects
     '''
 
+    # Class Obj attr doesn't change accross instances
+
+    # Class attr = dynamic/specific to each class obj
+
+    class PlayerCharacter:
+        # class object attribute
+        membership = True
+        def __init__(self, name, age):
+            if (PlayerCharacter.membership):
+                self.name = name # attribute
+                self.age = age
+
+        def shout(self):
+            print(f'my name is {self.name}')
+
+    player1 = PlayerCharacter('Cindy', 44)
+    player2 = PlayerCharacter('Tom', 21)
+    Player2.attack = 50
+
+    print(player1.shout())
+
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
