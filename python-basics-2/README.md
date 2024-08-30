@@ -1617,6 +1617,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
         # a way to structure our code and keep things organized and split them into dev groups
 ```
+### Day 39 of 100 | Wed, Aug 28, 2024
 #### What is OOP? Part 2 
 
 ```Python
@@ -1768,6 +1769,8 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # Use class to duplicate objects easily
 ```
+### Day 
+#### Attributes and Methods
 
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
