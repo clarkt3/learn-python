@@ -1799,6 +1799,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     # Class Obj Attribute
 
     class PlayerCharacter:
+        # class object Attribute
         membership = True
         def __init__(self, name, age):
             self.name = name # attributes
