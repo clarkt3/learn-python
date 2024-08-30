@@ -1791,6 +1791,26 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     Group data, like attributes, w/ methods
     to create class
     '''
+    # KEY POINT:
+
+        # new function 
+        help() # gives you the blue print of the obj
+
+    # Class Obj Attribute
+
+    class PlayerCharacter:
+        membership = True
+        def __init__(self, name, age):
+            self.name = name # attributes
+            self.age = age
+
+        def run(self):
+            print('run')
+            return 'done'
+
+    player1 = playerCharacter('Cindy', 44)
+    player2 = PlayerCharacter('Tom', 21)
+    player2.attack = 50
 
 ```
 ## Section Title
