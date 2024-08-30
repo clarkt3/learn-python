@@ -1813,6 +1813,17 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     player2 = PlayerCharacter('Tom', 21)
     player2.attack = 50
 
+    print(player2.membership) # outputs: True
+    print(player1.membership) # outputs: True
+
+    # this is not dynamic though
+
+    '''
+    only use if all objects you will instantiate 
+    will have this class attribute; it's not going
+    to change for any of the objects
+    '''
+
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
