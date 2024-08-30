@@ -1658,6 +1658,8 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
     obj2 - BigOjects() #instanciate
     obj3 - BigOjects() #instanciate
 ```
+### Day 40 of 100 | Thu, Aug 29, 2024
+
 #### Creating Our Own Objects
 
 ```Python
