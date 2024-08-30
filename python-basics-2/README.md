@@ -1775,7 +1775,15 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 #### Attributes and Methods
 ```Python
 
-    #
+    # OOP Allows us to create objects w/ their own
+
+        # methods - like run 
+        # attribute - properties
+
+        '''
+        Best way to add functionality to a language 
+        and mimic the real world!
+        '''
 
 ```
 ## Section Title
