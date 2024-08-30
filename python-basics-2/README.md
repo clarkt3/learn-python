@@ -1773,7 +1773,11 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 ```
 ### Day 41 of 100 | Fri, Aug 30, 2024 
 #### Attributes and Methods
+```Python
 
+    #
+
+```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
