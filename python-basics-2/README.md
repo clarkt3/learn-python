@@ -1771,7 +1771,7 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 
     # Use class to duplicate objects easily
 ```
-### Day 
+### Day 41 of 100 | Fri, Aug 30, 2024 
 #### Attributes and Methods
 
 ## Section Title
