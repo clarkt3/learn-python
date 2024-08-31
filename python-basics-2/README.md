@@ -1851,8 +1851,34 @@ print(highest_even([10, 1, 2,3 ,4, 8, 11])) # this line is seperate from the fun
 #### __init__
 ```Python
 
-    #
+     class PlayerCharacter:
+         # class object attribute
+         membership = True
+         def __init__(self, name='anonymous', age=0):
+             if (age > 18):
+                 self.name = name # attribute
+                 self.age = age
 
+         def shout(self):
+             print(f'my name is {self.name}')
+
+     player2 = PlayerCharacter('Tom', 21)
+
+     print(player1.shout())
+    
+    # since Tom is only 10, self is not instantiated
+
+    '''
+    Add controls/safe guards so we receive the correct
+    data for each player/character/user
+    '''
+    # Key Point: 
+
+    '''
+    __init__ gives you control to make sure 
+    everything in the class is setup correctly
+    and consistently
+    ''' 
 ```
 
 ## Section Title
