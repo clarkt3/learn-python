@@ -1905,9 +1905,23 @@ cat2 = Cat('Joe', 8)
 
 # 2 Create a function that finds the oldest cat
 
+class Cat:
+    species = 'mamal'
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
+cat1 = Cat('Merritt', 12)
+cat2 = Cat('Joe', 8)
+cat3 = Cat('Winston', 8)
 
-# 3 Print out: "The oldest cat is x years old.". x will be the oldest cat age by using the function in #2
+print(cat1.name, cat1.age)
+print(cat2.name, cat2.age)
+print(cat3.name, cat3.age)
+
+def oldest_age(*args):
+    return max(args)
+print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.') #outputs 'The oldest cat is 12 y/o'
 
 ```
 ## Section Title
