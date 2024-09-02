@@ -1900,8 +1900,8 @@ class Cat:
         self.name = name
         self.age = age
 
-cat1 = Cat()
-cat2 = Cat() 
+cat1 = Cat('Merritt', 12)
+cat2 = Cat('Joe', 8) 
 
 # 2 Create a function that finds the oldest cat
 
