@@ -1894,7 +1894,14 @@ class Cat:
 
 # 1 Instantiate the Cat object with 3 cats
 
+class Cat:
+    species = 'mamal'
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
+cat1 = Cat()
+cat2 = Cat() 
 
 # 2 Create a function that finds the oldest cat
 
