@@ -1924,6 +1924,7 @@ def oldest_age(*args):
 print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.') #outputs 'The oldest cat is 12 y/o'
 
 ```
+### Day 44 | Mon, Sep 2, 2024
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
