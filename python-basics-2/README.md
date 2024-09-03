@@ -1977,6 +1977,31 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # now we're thinking in Objects OOP
 
+    # we learned how to instantiate classes
+    
+    class NameOfClass():
+    
+    # learned about class attributes
+
+    class_attribute = 'value'
+
+    # how to instantiate 
+
+    def __init__(self, param1, param2):
+        self.param1 = param1
+        self.param2 = param2
+
+    # Learned how to add methods
+        # now each obj we create, instantiate has access to class methods
+
+    # learned about @classmethod, @staticmethod
+
+        # which can be called on the class w/o instaiting it
+
+    # learned all this so we can create our own datatype 
+    # that models the real world
+
+    # 
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
