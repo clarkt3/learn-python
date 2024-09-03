@@ -1942,6 +1942,10 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     print(PlayerCharacter.adding_things(2,3))
 
     # output: 5 w/o instantiation
+
+    # 95% of your classes will not use a class method
+
+    # however, you should know about this tool
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
