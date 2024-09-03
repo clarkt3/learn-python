@@ -1967,6 +1967,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
      def adding_things(num1, num2) #no access to cls here
         return num1 + num2
 ```
+### Day 45 | Tue, Sep 3, 2024
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
