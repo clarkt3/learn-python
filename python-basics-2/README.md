@@ -2001,7 +2001,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # learned all this so we can create our own datatype 
     # that models the real world
 
-    # 
+    # follow these guidelines/structure and that's pretty much it 
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
