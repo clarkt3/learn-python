@@ -1928,8 +1928,20 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### @classmethod and @staticmethod
 ```Python
 
+    # class methods work w/o instantiation
+    
+    membership = True
+    def __init__(self, name, age):
+        self.name = name #attributes
+        self.age = age
 
+    @classmethod
+    def adding_things(cls, num1, num2):
+        return num1 + num2
 
+    print(PlayerCharacter.adding_things(2,3))
+
+    # output: 5 w/o instantiation
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
