@@ -1971,7 +1971,11 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 #### Reviewing What We Know So Far
 ```Python
 
+    # started @ procedural
 
+    # moved to wirting function
+
+    # now we're thinking in Objects OOP
 
 ```
 ## Section Title
