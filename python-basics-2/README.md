@@ -1925,6 +1925,12 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
 ```
 ### Day 44 | Mon, Sep 2, 2024
+### @classmethod and @staticmethod
+```Python
+
+
+
+```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
