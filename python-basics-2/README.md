@@ -2003,6 +2003,13 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # follow these guidelines/structure and that's pretty much it 
 ```
+#### Day 46 | Wed, Sep 4, 2024
+### DEVELOPER FUNDAMENTALS: V
+```Python
+
+
+
+```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
 #### Subsection Title:
