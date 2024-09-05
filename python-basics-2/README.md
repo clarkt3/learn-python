@@ -2023,8 +2023,9 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     player1 = PlayerCharacter('Thomas', 100)
 
-    print(Player1.run())    # returns: <__main__PlayerCharacter object at 0>
+    print(Player1.run())    # returns: <__main__.PlayerCharacter object at 0>
 
+    # if you don't understand something, test it using return or print, etc...
 ```
 ## Section Title
 ### Day X of 100 | Day, Mon XX, 2024
