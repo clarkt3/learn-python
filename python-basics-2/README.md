@@ -2007,7 +2007,23 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### DEVELOPER FUNDAMENTALS: V
 ```Python
 
+    # Test Your Assumptions
 
+    # You need to know how things work so you can explain it to people/devs
+
+    # Test Self
+
+    class PlayerCharacter:
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
+        def run(self):
+            return self
+
+    player1 = PlayerCharacter('Thomas', 100)
+
+    print(Player1.run())    # returns: <__main__PlayerCharacter object at 0>
 
 ```
 ## Section Title
