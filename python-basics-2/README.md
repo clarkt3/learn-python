@@ -2027,6 +2027,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # if you don't understand something, test it using return or print, etc...
 ```
-## Section Title
-### Day X of 100 | Day, Mon XX, 2024
-#### Subsection Title:
+###### Blue Print for Remaining Sections/Days
+## Section X: Section Title
+### Subsection Title
+#### Day X | Day, Mth XX, 2024
