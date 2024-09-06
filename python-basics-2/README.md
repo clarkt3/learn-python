@@ -2032,8 +2032,46 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Encapsulation
 ```Python
 
+    # What is Encapsulation?
 
+    '''
+    Encapsulation is the binding of data & functions that manipulate the data
 
+    Encapsulate everything in one box so users, code, machines can interact
+    with it theses objects in the encapsulated box.
+    '''
+
+    # The data and functions are what we call attributes and methods
+
+    # PlayerCharacter Encapsulation
+
+    class PlayerCharacter:
+        def __init__(self, name, age):
+            self.name = name    # data attribute
+            self.age = age      # data attribute
+
+        def run(self):
+            print('run')
+        
+        # Encapsulate functionality so you can use all the functions/data attrs 
+        def speak(self):
+            print(f'my name is {self.name}, and I am {self.age} years old')
+            
+    player1 = PlayerCharacter('andrei', 100)
+    
+    # Why package data and functions into attrs and methods?
+
+    '''
+    Because if the player character ddoesn't have any actions, methods
+    and only had attributes, it's just like a dictionary, which is
+    kind of useless.
+    '''
+
+    # W/O functions it's just a fancy dictionary
+
+    player2 = {'name': 'Thomas', 'age': 100}
+    print(player2['name'])
+    print(player2['age'])
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
