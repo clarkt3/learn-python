@@ -2029,7 +2029,12 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ```
 #### Day 47 | Wed, Sep 5, 2024
 
+### Encapsulation
+```Python
 
+
+
+```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
