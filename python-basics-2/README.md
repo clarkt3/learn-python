@@ -2077,8 +2077,34 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Abstraction
 ```Python
 
+    # Only give access to things devs and machine need access to; hide all else
 
+    # For example: you know you have access to .count but not exactly how it works
 
+        # that's because it's abstracted under a blanket by python3 devs
+    
+    # Example: you want to use the iPhone camera functions in an app
+
+        # you don't know how the camera is coded but you know you can access it
+
+    # But what if you don't want antoher programmer to overwrite you code
+
+    class PlayerCharacter:
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
+        def run(self):
+            print('run')
+
+        def speak(self):
+            print(f'my name is {self.name}, and I am {self.age} years old')
+
+        # You don't want another programmer to be able to overwrite your functions
+        player1.name = '!!!'    # overwrites function
+        player.speak = 'BOOO'   # overwrites function
+    
+    # You Must Use Abstraction to eliminate overwrites; more in next section
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
