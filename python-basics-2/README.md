@@ -2104,6 +2104,8 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
         player1.name = '!!!'    # overwrites function
         player.speak = 'BOOO'   # overwrites function
     
+        # Trying to call function after overwrite
+        print(player1.speak())  # 'str' object is not collable b/c of overwtire
     # You Must Use Abstraction to eliminate overwrites; more in next section
 ```
 ###### Blue Print for Remaining Sections/Days
