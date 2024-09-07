@@ -2027,7 +2027,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # if you don't understand something, test it using return or print, etc...
 ```
-#### Day 47 | Wed, Sep 5, 2024
+#### Day 47 | Thu, Sep 5, 2024
 
 ### Encapsulation
 ```Python
@@ -2073,6 +2073,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     print(player2['name'])
     print(player2['age'])
 ```
+#### Day 48 | Wed, Sep 
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
