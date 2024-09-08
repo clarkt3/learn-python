@@ -2112,7 +2112,28 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Private vs Public
 ```Python
 
+    # Python has no TRUE private variables
 
+    # Underscore convention:
+        
+        # If you see _name it means that var should be private; don't modify it
+
+    class PlayerCharacter:
+        def __init__(self, name, age):
+            self._name = name
+            self._age = age
+
+        def run(self):
+            print('run')
+
+        def speak(self):
+            print(f'my name is {self._name}, and I am {self._age} years old')
+
+        # instantiate player1
+
+        player1 = PlayerCharacter('Thomas', 30)
+
+        print(player1.speak())  # my name is Thomas, and I am 30 years old!
 
 ```
 ###### Blue Print for Remaining Sections/Days
