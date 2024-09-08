@@ -2135,6 +2135,11 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
         print(player1.speak())  # my name is Thomas, and I am 30 years old!
 
+        # Double Underscore __ is also conventions; means don't modify or touch
+
+        __init__
+
+        # Dunder methods start with double underscores; don't modify them
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
