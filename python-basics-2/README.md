@@ -2109,6 +2109,12 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # You Must Use Abstraction to eliminate overwrites; more in next section
 ```
 #### Day 49 | Sat, Sep 7, 2024
+### Private vs Public
+```Python
+
+
+
+```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
