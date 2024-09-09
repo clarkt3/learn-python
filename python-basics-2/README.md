@@ -2183,12 +2183,12 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
             print(f'attacking with power of {self.power}')
 
     class Archer(User):     # Passing (User) enables inheritance
-        def __init__(self, name, power):
+        def __init__(self, name, num_arrows):
             self.name = name
-             self.power = power
+            self.num_arrows  = num_arrows
  
-         def attack():
-             print(f'attacking with power of {self.power}')
+        def attack():
+            print(f'attacking with power of {self.power}')
     # Instantiate a class
 
     wizard1 = Wizard()
