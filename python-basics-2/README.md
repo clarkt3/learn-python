@@ -2179,7 +2179,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
             self.name = name
             self.power = power
 
-        def attack():
+        def attack(self):
             print(f'attacking with power of {self.power}')
 
     class Archer(User):     # Passing (User) enables inheritance
@@ -2187,11 +2187,16 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
             self.name = name
             self.num_arrows  = num_arrows
  
-        def attack():
+        def attack(self):
             print(f'attacking with arrows: arrows left - {self.num_arrows}')
     # Instantiate a class
 
-    wizard1 = Wizard()
+    wizard1 = Wizard('Merlin', 50)  # instantiate Merlin w/ power 50
+    archer1 = Archer('Robin', 100)  # instantiate Robin w/ 100 arrows
+
+    # Archer1 and Wizard1 have signin and unique attack for each class
+
+    wizard1 
     print(wizard1)              # Wizard Obj created
     print(wizard1.sign_in())    # Wizard1 can access signin b/c of inheritance
 
