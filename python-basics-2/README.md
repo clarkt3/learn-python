@@ -2197,6 +2197,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # Archer1 and Wizard1 have signin and unique attack for each class
 
     wizard1.attack()            # return: attacking w/ power of 50
+    archer1. attack()           # return: attacking w/ arrows: arrows left 100
     print(wizard1)              # Wizard Obj created
     print(wizard1.sign_in())    # Wizard1 can access signin b/c of inheritance
 
