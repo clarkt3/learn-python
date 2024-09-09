@@ -2188,7 +2188,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
             self.num_arrows  = num_arrows
  
         def attack():
-            print(f'attacking with power of {self.power}')
+            print(f'attacking with arrows: arrows left - {self.num_arrows}')
     # Instantiate a class
 
     wizard1 = Wizard()
