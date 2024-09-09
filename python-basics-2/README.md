@@ -2142,7 +2142,12 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
         # Dunder methods start with double underscores; don't modify them
 ```
 #### Day 50 | Sun, Sep 8, 2024
+### Inheritance
+```Python
 
+    # 
+
+```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
