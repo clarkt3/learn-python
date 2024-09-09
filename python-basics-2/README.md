@@ -2145,7 +2145,56 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Inheritance
 ```Python
 
-    # 
+    # Inheritance enables new objs to take on properties of existing objs
+
+    # If there are no vars attrs to be assigned __init__ not required
+
+    # Users in Game
+        - Wizards
+        - Archers
+        - Ogers
+
+    class User:
+    def sign_in(self):
+        print('logged in')
+
+    # Create Sub Classes
+
+    class Wizard():
+        pass
+
+    class Archer():
+        pass
+
+    # Ensure all Users have access to login w/ inheritance
+
+    # All that needs to be happen is pass the parent class w/i the bracket
+
+    class User():
+        def sign_in(self):
+            print('logged in')
+
+    class Wizard(User):     # Passing (User) enables inheritance
+        def __init__(self, name, power):
+            self.name = name
+            self.power = power
+
+        def attack():
+            print(f'attacking with power of {self.power}')
+
+    class Archer(User):     # Passing (User) enables inheritance
+        def __init__(self, name, power):
+            self.name = name
+             self.power = power
+ 
+         def attack():
+             print(f'attacking with power of {self.power}')
+    # Instantiate a class
+
+    wizard1 = Wizard()
+    print(wizard1)              # Wizard Obj created
+    print(wizard1.sign_in())    # Wizard1 can access signin b/c of inheritance
+
 
 ```
 ###### Blue Print for Remaining Sections/Days
