@@ -2198,11 +2198,18 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     wizard1.attack()            # return: attacking w/ power of 50
     archer1. attack()           # return: attacking w/ arrows: arrows left 100
+
+    # We did the following
+        
+        # kept code dry
+        # shared functionality
+        # made different attack functions
     print(wizard1)              # Wizard Obj created
     print(wizard1.sign_in())    # Wizard1 can access signin b/c of inheritance
 
 
 ```
+#### Day 51 | Mon, Sep 9, 2024
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
