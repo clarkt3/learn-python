@@ -2213,6 +2213,15 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Polymorphism
 ```Python
 
+    # Recap
+
+    # We've discussed three Pillars of OOP
+
+        # Inheritance
+        # Abstraction
+        # Encapsulation
+        
+    # The 4th Pillar of OOP - PloyMorphism
 
 
 ```
