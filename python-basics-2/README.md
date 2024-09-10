@@ -2222,7 +2222,30 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
         # Encapsulation
         
     # The 4th Pillar of OOP - PloyMorphism
+        
+        # Poly = Many
+        # Morphism = Form
+    # So many forms
 
+         class User():
+         def sign_in(self):
+             print('logged in')
+
+     class Wizard(User):     # Passing (User) enables inheritance
+         def __init__(self, name, power):
+             self.name = name
+             self.power = power
+
+         def attack(self):
+             print(f'attacking with power of {self.power}')
+
+     class Archer(User):     # Passing (User) enables inheritance
+         def __init__(self, name, num_arrows):
+             self.name = name
+             self.num_arrows  = num_arrows
+
+         def attack(self):
+             print(f'attacking with arrows: arrows left - {self.num_arrows}')
 
 ```
 ###### Blue Print for Remaining Sections/Days
