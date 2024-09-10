@@ -2210,6 +2210,12 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
 ```
 #### Day 51 | Mon, Sep 9, 2024
+### Polymorphism
+```Python
+
+
+
+```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
