@@ -2227,25 +2227,44 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
         # Morphism = Form
     # So many forms
 
-         class User():
-         def sign_in(self):
-             print('logged in')
+    class User():
+    def sign_in(self):
+        print('logged in')
 
-     class Wizard(User):     # Passing (User) enables inheritance
-         def __init__(self, name, power):
-             self.name = name
-             self.power = power
+    class Wizard(User):     # Passing (User) enables inheritance
+        def __init__(self, name, power):
+            self.name = name
+            self.power = power
 
-         def attack(self):
-             print(f'attacking with power of {self.power}')
+        def attack(self):
+            print(f'attacking with power of {self.power}')
 
-     class Archer(User):     # Passing (User) enables inheritance
-         def __init__(self, name, num_arrows):
+    class Archer(User):     # Passing (User) enables inheritance
+        def __init__(self, name, num_arrows):
              self.name = name
              self.num_arrows  = num_arrows
 
-         def attack(self):
+        def attack(self):
              print(f'attacking with arrows: arrows left - {self.num_arrows}')
+
+    wizard1 = Wizard('Merlin', 60)
+    archer1 = Archer('Robin', 30)
+
+    print(wizard1.attack())
+    
+    # A different way to attack
+
+    def player_attack(char):
+        char.attack()
+
+    player_attack(wizard1)
+    player_attack(archer1)
+
+    # Above, you see the same function works differently on archer vs. wizard
+
+    # This is Polymorphism
+
+    # This is the power of OOP; use them to structure your code efficiently
 
 ```
 ###### Blue Print for Remaining Sections/Days
