@@ -2282,33 +2282,59 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
         for animal in self.animals:
             print(animal.walk())
 
-class Cat():
-    is_lazy = True
+    class Cat():
+        is_lazy = True
 
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
 
-    def walk(self):
-        return f'{self.name} is just walking around'
+        def walk(self):
+            return f'{self.name} is just walking around'
 
-class Simon(Cat):
-    def sing(self, sounds):
-        return f'{sounds}'
+    class Simon(Cat):
+        def sing(self, sounds):
+            return f'{sounds}'
 
-class Sally(Cat):
-    def sing(self, sounds):
-        return f'{sounds}'
+    class Sally(Cat):
+        def sing(self, sounds):
+            return f'{sounds}'
 
-#1 Add nother Cat
+    # 1 Add another Cat
+    class Tom(Cat):
+        def sing(self, sounds):
+            return f'{sounds}'
+    
+    # 2 Create a list of all of the pets (create 3 cat instances from the above)
+    my_cats = [Simon, Sally, Tom]   # my attempt
+    
+    # The Solution
+    my_cats = [] 
+    cat1 = Simon('Simon', 10)
+    cat2 = Sally('Sally', 15)
+    cat3 = Tom('Tom', 2)
 
-#2 Create a list of all of the pets (create 3 cat instances from the above)
-my_cats = []
+    # create 3 cat instances from the above
+    my_cats.append(cat1)
+    my_cats.append(cat2)
+    my_cats.append(cat3)
 
-#3 Instantiate the Pet class with all your cats use variable my_pets
+    # alternative to the above code
 
-#4 Output all of the cats walking using the my_pets instance
+    my_cats = [Simon('Simon', 10), Sally('Sally', 15), Tom('Tom', 2)]
 
+    # 3 Instantiate the Pet class with all your cats use variable my_pets
+    
+    # My 1st  attempt
+    my_pets1 = Cat('Simon', 12)
+    my_pets2 = Cat('Sally', 10)
+    my_pets3 = Cat('Tom', 2)
+    
+    # Solution
+    my_pets = Pets(my_cats)
+    
+    # 4 Output all of the cats walking using the my_pets instance
+    my_pets.walk()
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
