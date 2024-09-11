@@ -2267,6 +2267,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # This is the power of OOP; use them to structure your code efficiently
 
 ```
+#### Day 52 | Tue, Sep 10, 2024
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
