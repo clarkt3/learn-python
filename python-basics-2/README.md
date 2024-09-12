@@ -2388,6 +2388,14 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # super() enables us to refer to user 
 
     # super() was added in Python2.2
+
+```
+#### Day 54 | Thu, Sep 12, 2024
+### Object Introspection
+```Python
+
+
+
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
