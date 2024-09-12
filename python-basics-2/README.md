@@ -2337,6 +2337,12 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     my_pets.walk()
 ```
 #### Day 53 | Wed, Sep 11, 2024
+### super()
+```Python
+
+    # 
+
+```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
