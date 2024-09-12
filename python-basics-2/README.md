@@ -2336,6 +2336,7 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # 4 Output all of the cats walking using the my_pets instance
     my_pets.walk()
 ```
+#### Day 53 | Wed, Sep 11, 2024
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
