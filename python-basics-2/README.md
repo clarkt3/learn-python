@@ -2400,8 +2400,24 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     The ability to determine the type of an object at run time
 
     What's run time? When the code is running, you can dtermine the 
-    type of an object
+    type of an object.
     '''
+
+    # dir function
+
+    '''
+    The dir function will return all the methods and attributes 
+    that an instances has at its disposal.
+    '''
+
+    wizard1 = wizard('Merlin', 60, 'merlin#gmail.com')
+    print(dir(wizard1))
+
+    # You must pass dir an instances to see what the instance has access to
+
+    print(dir(wizard1))     # return: all method wizard1 has access to 
+
+
 
 ```
 ###### Blue Print for Remaining Sections/Days
