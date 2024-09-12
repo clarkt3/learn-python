@@ -2394,7 +2394,14 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Object Introspection
 ```Python
 
+    # introspection in CS
 
+    '''
+    The ability to determine the type of an object at run time
+
+    What's run time? When the code is running, you can dtermine the 
+    type of an object
+    '''
 
 ```
 ###### Blue Print for Remaining Sections/Days
