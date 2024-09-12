@@ -2340,8 +2340,25 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### super()
 ```Python
 
-    # 
+    # add __init__ to class User(object)
 
+    class User(object):
+        def __init__(self, email):
+            self.email = email
+
+        def sign_in(self):
+            print('logged in')
+
+    class Wizard(User):
+        def __init__(self, name, power):
+            self.name = name
+            self.power = power
+
+        def attack(self):
+            print(f'attack with the power of {self.power}') 
+
+    wizard1 = Wizard('Merlin', 60)
+    print(wizard1.email)
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
