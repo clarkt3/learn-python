@@ -2358,7 +2358,34 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
             print(f'attack with the power of {self.power}') 
 
     wizard1 = Wizard('Merlin', 60)
-    print(wizard1.email)
+    print(wizard1.email)    # returns: 'Wizard' obj has no attribute 'email'
+
+    # You need to add the __init__ within the Wizard class
+
+    class Wizard(User):
+        def __init__(self, name, power, email):     # add email here
+        User.__init__(self, email)                  # add init here
+        self.name = name
+        self.power = power
+
+    wizard1 = Wizard('Merlin', 60, 'merlin#gmail.com')
+    print(wizard1.email)                            # returns: merlin@gmail.com
+
+    # Recap of what was done
+
+        # 1. added __init__(self, email): to class User
+        # 2. call __init__ w/i the Wizard Class
+        # 3. When new wizard is instantiated user.__init__(self, email) is passed in
+
+    # Doing the same thing w/ super()
+
+    class Wizard(User):
+        def __init__(self, name, power, email):
+            super().__init__(email)
+            self.name = name
+            self.power = power
+
+    # super() enables us to refer to user 
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
