@@ -2386,6 +2386,8 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
             self.power = power
 
     # super() enables us to refer to user 
+
+    # super() was added in Python2.2
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
