@@ -2418,6 +2418,13 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     print(dir(wizard1))     # return: all method wizard1 has access to 
 
 ```
+#### Day 55 | Fri, Sep 13, 2024
+### Dunder Methods
+```Python
+
+
+
+```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
