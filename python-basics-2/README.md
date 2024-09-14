@@ -2436,6 +2436,25 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     action_figure = Toy('red', 0)
     print(actio>figure.__str__())   # returns: <__main__.Toy object at
     print(str(action_figure))       # returns: same as above  
+
+    # Sometimes it's ok to modify dunder methods if you want you code 
+        # to function in a specific way
+
+    # exmaple
+
+    class Toy():
+        def __init__(self, color, age):
+        self.color = color
+        self.age = age
+
+        def )__str__(self):
+            return f'{self.color}'
+
+    action_figure = Toy('red', 0)
+    print(actio>figure.__str__())   # returns: <__main__.Toy object at
+    print(str(action_figure))       # returns: same as above
+
+    # Key Point: You can overwrite dunder methods but it's not best practice
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
