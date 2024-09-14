@@ -2426,7 +2426,16 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # __ = special method
 
-    # 
+    # Code
+
+    class Toy():
+        def __init__(self, color, age):
+        self.color = color
+        self.age = age
+
+    action_figure = Toy('red', 0)
+    print(actio>figure.__str__())   # returns: <__main__.Toy object at
+    print(str(action_figure))       # returns: same as above  
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
