@@ -2422,8 +2422,11 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Dunder Methods
 ```Python
 
+    # what do dunder methods do? 
 
+    # __ = special method
 
+    # 
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
