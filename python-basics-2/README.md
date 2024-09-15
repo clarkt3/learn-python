@@ -2476,7 +2476,10 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # returns: 1000 5
 
     # Run a test
+    print(issubclass(superList, list))  # returns 1000, 5, True b/c SuperList is a list subclass
 
+    # Another Test
+    print(issubclass(list, object)) # returns: True b/c everything in Python is obj inherited from base obj class 
 
 ```
 ###### Blue Print for Remaining Sections/Days
