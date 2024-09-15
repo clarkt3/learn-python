@@ -2460,6 +2460,22 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Exercise: Extending List
 ```Python
 
+    # Create a __len__ dunder method 
+
+    class SuperList(list):  # add super list as attribute
+        def __len__(self):
+        return 1000
+
+    super_list1 = SuperList();
+    print(len(superlist1))  # returns: 1000
+
+    # Add append to super list
+
+    super_list1.append(5)   # adds 5 to the beginning of 1000
+    print(super_list[0]) # access superlist @ 0 index 
+    # returns: 1000 5
+
+    # Run a test
 
 
 ```
