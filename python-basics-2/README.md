@@ -2457,6 +2457,12 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # Key Point: You can overwrite dunder methods but it's not best practice
 ```
 #### Day 56 | Sat, Sep 14, 2024
+### Exercise: Extending List
+```Python
+
+
+
+```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
