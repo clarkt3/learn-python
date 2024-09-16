@@ -2515,7 +2515,8 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
         # This will be complicated for other programmer to understand in the future
         # Multiple Inheritance is a great power; remember, w/ great power comes great responsibility
- 
+
+    # KEY POINT 2: Be cautions w/ multiple inheritance
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
