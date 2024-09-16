@@ -2480,8 +2480,8 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # Another Test
     print(issubclass(list, object)) # returns: True b/c everything in Python is obj inherited from base obj class 
-
 ```
+#### Day 57 | Sun, Sep 15, 2024
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
