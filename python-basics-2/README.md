@@ -2488,9 +2488,34 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     # what if we want to create a new character?
 
     class HybridBord(Wizard, Archer)    # HybridBord inherits all methods from Wizard & Archer
+        pass
 
+    hb1 = HybridBorg()
+    print(hb1.run())    # Error: missing 2 reguired positional arguments. 'name and 'power'
 
+    hb1 = HybridBorg('borgie', 50)
+    print(hb1.run())    # returns: 'Ran really fast'
+    print(hb1.check_arrows())   # error: hybridborg object has not attribute 'arrows'
+                                # this is b/c we inherited wizard 1st then archer 2nd
+    
+    # tricky issue w/ multiple inheritance - you need to understand how the classes work and not overwrite anything
 
+    # complicate code a bit
+
+    class HybridBorg(Wizard, Archer):
+        def __init__(self, name, power, arrows):
+            Archer.__init__(self, name, arrows)
+
+    hb1 = HybridBorg('borgie', 50, 100)
+    print(hb1.check_arrows())   # returns: 100 remaining
+
+    print(hb1.attack())         # returns no attribute power
+
+    # KEY POINT: When you perform multiple inheritance, things get complicated and fast
+
+        # This will be complicated for other programmer to understand in the future
+        # Multiple Inheritance is a great power; remember, w/ great power comes great responsibility
+ 
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
