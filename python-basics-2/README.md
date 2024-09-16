@@ -2485,6 +2485,11 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Multiple Inheritance
 ```Python
 
+    # what if we want to create a new character?
+
+    class HybridBord(Wizard, Archer)    # HybridBord inherits all methods from Wizard & Archer
+
+
 
 ```
 ###### Blue Print for Remaining Sections/Days
