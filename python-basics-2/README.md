@@ -2565,9 +2565,11 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # KEY POINT: MRO is like an inheritance model
 
-    print(M.__mro__)    # returns: M, B, A, X, Y, Z, based obj
+    print(M.__mro__)    # returns: M, B, A, X, Y, Z, base obj
 
-    # MRO Algo = Depth First Search
+    # MRO algo = depth first search
+
+    # Python changed the MRO rules since v 2 ( You will never get tested on this stuff )
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
