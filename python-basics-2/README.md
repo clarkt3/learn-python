@@ -2526,7 +2526,19 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### MRO - Method Resolution Order
 ```Python
 
+    # Method Resolution Order
+
+    class A:
+        num = 10
     
+    class B(A):
+        pass
+
+    class C(A):
+        num = 1
+
+    class D(B, C):
+        pass
     
 ```
 ###### Blue Print for Remaining Sections/Days
