@@ -2554,7 +2554,16 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     D.__str__ # checks all the way up to based obj and sees that base obj has __str__
 
+    # Example of why inheritances can be confusing and why you might want to avoide MRO
 
+    class X: pass
+    class Y: pass
+    class Z: pass
+    class A(X,Y): pass
+    class B(Y,Z): pass
+    class M(B, A, Z): pass
+
+    # KEY POINT: MRO is like an inheritance model
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
