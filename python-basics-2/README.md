@@ -2527,7 +2527,9 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ```Python
 
     # Method Resolution Order
-
+    # MRO Helps with complicated inheritance structure
+        # it "says" do this, do this, then do that - helps with the inheritance relationships
+        
     class A:
         num = 10
     
@@ -2540,6 +2542,19 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
     class D(B, C):
         pass
     
+    print(D.num)    # returns: 1
+
+    # MRO defines what's first in line when it comes to inheritance
+
+    # How to find out the MRO
+
+    print(D.mro())  # returns: __main__.D, __main__.B, __main__.C __main__.A
+
+    # Base Obj has __str__
+
+    D.__str__ # checks all the way up to based obj and sees that base obj has __str__
+
+
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
