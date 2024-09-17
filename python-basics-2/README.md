@@ -2575,7 +2575,9 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 ### Functional Programming
 ```Python
 
+    # Functional Programming is simply another way for use to think about and organize code
 
+    # 
 
 ```
 ###### Blue Print for Remaining Sections/Days
