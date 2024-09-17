@@ -2571,6 +2571,8 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # Python changed the MRO rules since v 2 ( You will never get tested on this stuff )
 ```
+#### Day 59 | Tue, Sep 17, 2024
+
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
 ### Subsection Title
