@@ -2585,8 +2585,11 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # Seperate things into seperate chunks so everything is organized in a way that makes sense
 
-    # 
+    # Genrally, functional langugaes have an emphsis on simplicity where data and functions are concerned
 
+        # no emphsis on functions and objects; operate on data structure - lists and dictionaries
+
+    # Just antoher way to make code clean and easy to extend 
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
