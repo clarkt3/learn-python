@@ -2583,6 +2583,10 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
 
     # Functional Programming is all about Seperation of Concerns
 
+    # Seperate things into seperate chunks so everything is organized in a way that makes sense
+
+    # 
+
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
