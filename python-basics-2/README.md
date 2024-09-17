@@ -2590,6 +2590,16 @@ print(f'The oldes cat is {oldest_age(cat1.age, cat2.age, cat3.age)} years old.')
         # no emphsis on functions and objects; operate on data structure - lists and dictionaries
 
     # Just antoher way to make code clean and easy to extend 
+
+    # KEY PONT:
+
+    '''
+    Make code: Clear + Understandable, Easy to Extent, Easy to maintain
+
+    Memory efficient
+    
+    DRY
+    '''
 ```
 ###### Blue Print for Remaining Sections/Days
 ## Section X: Section Title
